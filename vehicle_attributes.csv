@@ -1,0 +1,29 @@
+attribute,name,description,motorized,pedal
+vehicle_type,Bike,,can_be,true
+vehicle_type,Tandem,,can_be,true
+vehicle_type,Unicycle,,can_be,true
+vehicle_type,Tricycle,,can_be,true
+vehicle_type,Stroller,,can_be,false
+vehicle_type,Recumbent,,can_be,true
+vehicle_type,Bike Trailer,,can_be,false
+vehicle_type,Wheelchair,,can_be,false
+vehicle_type,Cargo Bike,Cargo Bike (front storage),can_be,true
+vehicle_type,Tall Bike,Tall Bike (multiple frames fused together),can_be,true
+vehicle_type,Penny Farthing,,can_be,true
+vehicle_type,Cargo Bike Rear,Cargo Bike Rear (e.g. longtail),can_be,true
+vehicle_type,Cargo Tricycle,"Cargo Tricycle (trike with front storage, e.g. Christiania bike)",can_be,true
+vehicle_type,Cargo Tricycle Rear,Cargo Tricycle (trike with rear storage),can_be,true
+vehicle_type,Trail behind,Trail behind (half bike),never,true
+vehicle_type,Pedi Cab,Pedi Cab (rickshaw),can_be,true
+vehicle_type,e-Scooter,,always,false
+vehicle_type,e-Personal Mobility,"e-Personal Mobility (EPAMD, e-Skateboard, Segway, e-Unicycle, etc)",always,false
+vehicle_type,Scooter,Scooter (not electric),never,false
+vehicle_type,Skateboard,Skateboard (not electric),never,false
+vehicle_type,e-Motorcycle,"e-Motorcycle (e-Dirt bike, e-bike with no pedals)",always,false
+vehicle_type,Elliptical bike,,can_be,false
+propulsion_type,Pedal,,never,
+propulsion_type,Pedal Assist,,always,
+propulsion_type,Throttle,,always,
+propulsion_type,Pedal Assist and Throttle,,always,
+propulsion_type,Hand Cycle,Hand Cycle (hand pedal),never,
+propulsion_type,Human powered,Human powered (not by pedals),never,
