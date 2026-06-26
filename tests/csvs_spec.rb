@@ -28,4 +28,20 @@ RSpec.describe "CSVs" do
       expect(repo_csv.headers).to eq BIKE_INDEX_ACTIVITIES_CSV.headers
     end
   end
+
+  describe "wheel_sizes.csv" do
+    let(:repo_csv) { CSV.read("wheel_sizes.csv", headers: true, header_converters: :symbol) }
+
+    it "parses" do
+      expect(repo_csv.count).to be > 0
+    end
+  end
+
+  describe "components.csv" do
+    let(:repo_csv) { CSV.read("components.csv", headers: true, header_converters: :symbol) }
+
+    it "parses" do
+      expect(repo_csv.count).to be > 0
+    end
+  end
 end
