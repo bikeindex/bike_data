@@ -6,6 +6,8 @@ The data here is used by [BikeIndex.org](https://bikeindex.org) to classify bike
 - Primary Activities: [primary_activities.csv](primary_activities.csv)
 - Wheel sizes: [wheel_sizes.csv](wheel_sizes.csv)
 - Components: [components.csv](components.csv)
+- Vehicle types: [vehicle_types.csv](vehicle_types.csv)
+- Propulsion types: [propulsion_types.csv](propulsion_types.csv)
 
 Are we missing a manufacturer? Or missing data about a manufacturer?
 
