@@ -1,9 +1,10 @@
-# Bike (and micromobility vehicle) data
+# Bike (and personal mobility/EPAMD) data
 
-The data here is used by [BikeIndex.org](https://bikeindex.org) to classify bikes and micromobility vehicles.
+The data here is used by [BikeIndex.org](https://bikeindex.org) to classify bikes and personal mobility vehicles.
 
 - The manufacturers that Bike Index knows about: [manufacturers.csv](manufacturers.csv)
 - Primary Activities: [primary_activities.csv](primary_activities.csv)
+- Wheel sizes: [wheel_sizes.csv](wheel_sizes.csv)
 - TODO: component types
 
 Are we missing a manufacturer? Or missing data about a manufacturer?
