@@ -12,7 +12,7 @@ BIKE_INDEX_ACTIVITIES_CSV = CSV.read("tmp/primary_activities.csv", headers: true
 
 RSpec.describe "CSVs" do
   describe "manufacturers.csv" do
-    let(:repo_csv) { CSV.read("manufacturers.csv", headers: true, header_converters: :symbol) }
+    let(:repo_csv) { CSV.read("data/manufacturers.csv", headers: true, header_converters: :symbol) }
 
     it "has at least as many manufacturers as are on bikeindex, and the same headers" do
       expect(repo_csv.count).to eq BIKE_INDEX_MANUFACTURERS_CSV.count
@@ -21,7 +21,7 @@ RSpec.describe "CSVs" do
   end
 
   describe "primary_activities.csv" do
-    let(:repo_csv) { CSV.read("primary_activities.csv", headers: true, header_converters: :symbol) }
+    let(:repo_csv) { CSV.read("data/primary_activities.csv", headers: true, header_converters: :symbol) }
 
     it "has at least as many activities as are on bikeindex, and the same headers" do
       expect(repo_csv.count).to eq BIKE_INDEX_ACTIVITIES_CSV.count
@@ -30,7 +30,7 @@ RSpec.describe "CSVs" do
   end
 
   describe "wheel_sizes.csv" do
-    let(:repo_csv) { CSV.read("wheel_sizes.csv", headers: true, header_converters: :symbol) }
+    let(:repo_csv) { CSV.read("data/wheel_sizes.csv", headers: true, header_converters: :symbol) }
 
     it "parses" do
       expect(repo_csv.count).to be > 0
@@ -38,7 +38,7 @@ RSpec.describe "CSVs" do
   end
 
   describe "components.csv" do
-    let(:repo_csv) { CSV.read("components.csv", headers: true, header_converters: :symbol) }
+    let(:repo_csv) { CSV.read("data/components.csv", headers: true, header_converters: :symbol) }
 
     it "parses" do
       expect(repo_csv.count).to be > 0
@@ -46,7 +46,7 @@ RSpec.describe "CSVs" do
   end
 
   describe "vehicle_attributes.csv" do
-    let(:repo_csv) { CSV.read("vehicle_attributes.csv", headers: true, header_converters: :symbol) }
+    let(:repo_csv) { CSV.read("data/vehicle_attributes.csv", headers: true, header_converters: :symbol) }
 
     it "parses" do
       expect(repo_csv.count).to be > 0
