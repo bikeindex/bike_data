@@ -7,7 +7,7 @@ Fairing,,false,Frame and Fork
 Lights,,true,Additional parts
 Bell/Noisemaker,,false,Additional parts
 Basket,,true,Cargo
-Chain Tensioners,Chain tugs,false,Drivetrain
+Chain Tensioners,Chain Tugs,false,Drivetrain
 Derailleur,,false,Drivetrain
 Training Wheels,,false,Wheels
 Bottom Bracket,,false,Drivetrain
@@ -48,13 +48,13 @@ Kickstand,,false,Additional parts
 Rack,,true,Cargo
 Seatpost,,false,Additional parts
 Fender,,true,Additional parts
-Aero Bars/Extensions/Bar Ends,Aero bars,false,Additional parts
+Aero Bars/Extensions/Bar Ends,Aero Bars,false,Additional parts
 Ebike Battery,Electric Bike Battery,false,Drivetrain
-Ebike Motor,Electric Bike motor,false,Drivetrain
-Pannier,Rack bag,false,Cargo
+Ebike Motor,Electric Bike Motor,false,Drivetrain
+Pannier,Rack Bag,false,Cargo
 Frame Bag,,false,Cargo
-Cargo Bike Side Rails,Cargo bike Monkey bars,false,Cargo
+Cargo Bike Side Rails,Cargo Bike Monkey Bars,false,Cargo
 Handlebar Bag,,false,Cargo
-Seat Bag,saddle bag,false,Cargo
-Top Tube Bag,bento box,false,Cargo
+Seat Bag,Saddle Bag,false,Cargo
+Top Tube Bag,Bento Box,false,Cargo
 Child Seat,,false,Cargo
