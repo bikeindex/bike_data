@@ -1,60 +1,60 @@
-name,secondary_name,has_multiple,group
+name,secondary_name,has_multiple_locations,group
 unknown,,false,Additional parts
-water bottle cage,,false,Additional parts
-stem,Gooseneck,false,Additional parts
-bashguard/chain guide,,false,Drivetrain and brakes
-fairing,,false,Frame and fork
-lights,,true,Additional parts
-bell/noisemaker,,false,Additional parts
-basket,,false,Additional parts
-chain tensioners,Chain tugs,false,Drivetrain and brakes
-derailleur,,false,Drivetrain and brakes
-training wheels,,false,Drivetrain and brakes
-bottom bracket,,false,Drivetrain and brakes
-brake,,true,Drivetrain and brakes
-hub guard,,false,Additional parts
-generator/dynamo,,true,Additional parts
-handlebar,,false,Additional parts
-wheel,,true,Wheels
-saddle,,false,Additional parts
-rim,,true,Wheels
-axle nuts,,true,Wheels
-hub,,true,Wheels
-spokes,,true,Wheels
-tube,,true,Wheels
-tire,,true,Wheels
-brake lever,,true,Drivetrain and brakes
-shift and brake lever,,true,Drivetrain and brakes
-brake rotor,,true,Drivetrain and brakes
-brake pad,,true,Drivetrain and brakes
-shifter,,true,Drivetrain and brakes
-fork,,false,Frame and fork
-rear suspension,,false,Frame and fork
-headset,,false,Frame and fork
-brake cable,,false,Drivetrain and brakes
-shift cable,,false,Drivetrain and brakes
-chain,,false,Drivetrain and brakes
-chainrings,,false,Drivetrain and brakes
-cog/cassette/freewheel,,false,Drivetrain and brakes
-crankset,,false,Drivetrain and brakes
-pedals,,false,Drivetrain and brakes
-computer,,false,Additional parts
-pegs,,true,Additional parts
-toe clips,,false,Additional parts
-grips/tape,,false,Additional parts
-seatpost clamp,,false,Additional parts
-detangler,,false,Drivetrain and brakes
-kickstand,,false,Additional parts
-rack,,true,Additional parts
-seatpost,,false,Additional parts
-fender,,true,Additional parts
-aero bars/extensions/bar ends,Aero bars,false,Additional parts
-Ebike battery,Electric Bike Battery,false,Drivetrain and brakes
-Ebike motor,Electric Bike motor,false,Drivetrain and brakes
-Pannier,Rack bag,false,Additional parts
-Frame bag,,false,Additional parts
-Cargo bike side rails,Cargo bike Monkey bars,false,Additional parts
-Handlebar bag,,false,Additional parts
-seat bag,saddle bag,false,Additional parts
-Top tube bag,bento box,false,Additional parts
-Child seat,,false,Additional parts
+Water Bottle Cage,,false,Additional parts
+Stem,Gooseneck,false,Additional parts
+Bashguard/Chain Guide,,false,Drivetrain
+Fairing,,false,Frame and Fork
+Lights,,true,Additional parts
+Bell/Noisemaker,,false,Additional parts
+Basket,,true,Cargo
+Chain Tensioners,Chain Tugs,false,Drivetrain
+Derailleur,,false,Drivetrain
+Training Wheels,,false,Wheels
+Bottom Bracket,,false,Drivetrain
+Brake,,true,Brakes
+Hub Guard,,false,Additional parts
+Generator/Dynamo,,true,Wheels
+Handlebar,,false,Additional parts
+Wheel,,true,Wheels
+Saddle,,false,Additional parts
+Rim,,true,Wheels
+Axle Nuts,,true,Wheels
+Hub,,true,Wheels
+Spokes,,true,Wheels
+Tube,,true,Wheels
+Tire,,true,Wheels
+Brake Lever,,true,Brakes
+Shift and Brake Lever,,true,Drivetrain
+Brake Rotor,,true,Brakes
+Brake Pad,,true,Brakes
+Shifter,,true,Drivetrain
+Fork,,false,Frame and Fork
+Rear Suspension,,false,Frame and Fork
+Headset,,false,Frame and Fork
+Brake Cable,,false,Brakes
+Shift Cable,,false,Drivetrain
+Chain,,false,Drivetrain
+Chainrings,,false,Drivetrain
+Cog/Cassette/Freewheel,,false,Drivetrain
+Crankset,,false,Drivetrain
+Pedals,,false,Drivetrain
+Computer,,false,Additional parts
+Pegs,,true,Additional parts
+Toe Clips,,false,Additional parts
+Grips/Tape,,false,Additional parts
+Seatpost Clamp,,false,Additional parts
+Detangler,,false,Brakes
+Kickstand,,false,Additional parts
+Rack,,true,Cargo
+Seatpost,,false,Additional parts
+Fender,,true,Additional parts
+Aero Bars/Extensions/Bar Ends,Aero Bars,false,Additional parts
+Ebike Battery,Electric Bike Battery,false,Drivetrain
+Ebike Motor,Electric Bike Motor,false,Drivetrain
+Pannier,Rack Bag,false,Cargo
+Frame Bag,,false,Cargo
+Cargo Bike Side Rails,Cargo Bike Monkey Bars,false,Cargo
+Handlebar Bag,,false,Cargo
+Seat Bag,Saddle Bag,false,Cargo
+Top Tube Bag,Bento Box,false,Cargo
+Child Seat,,false,Cargo
