@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Set default output file
-outfile_manufacturers="manufacturers.csv"
-outfile_activities="primary_activities.csv"
+outfile_manufacturers="data/manufacturers.csv"
+outfile_activities="data/primary_activities.csv"
 
 # Check if an argument was provided (it is the path)
 if [ $# -ge 1 ]; then
