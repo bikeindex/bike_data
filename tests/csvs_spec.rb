@@ -78,8 +78,8 @@ RSpec.describe "CSVs" do
     it_behaves_like "a data CSV", "data/colors.csv"
   end
 
-  describe "gear_types.csv" do
-    it_behaves_like "a data CSV", "data/gear_types.csv"
+  describe "drivetrain.csv" do
+    it_behaves_like "a data CSV", "data/drivetrain.csv"
   end
 
   describe "handlebar_types.csv" do

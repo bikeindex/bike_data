@@ -8,7 +8,7 @@ The data here is used by [BikeIndex.org](https://bikeindex.org) to classify bike
 - Components: [components.csv](data/components.csv)
 - Vehicle attributes: [vehicle_attributes.csv](data/vehicle_attributes.csv)
 - Colors: [colors.csv](data/colors.csv)
-- Gear types: [gear_types.csv](data/gear_types.csv)
+- Drivetrain: [drivetrain.csv](data/drivetrain.csv)
 - Handlebar types: [handlebar_types.csv](data/handlebar_types.csv)
 
 Are we missing a manufacturer? Or missing data about a manufacturer?
