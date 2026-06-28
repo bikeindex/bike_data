@@ -1,35 +1,38 @@
-attribute,name,description,motorized (always/never/can_be),pedal (always/never/can_be),slug
-vehicle_type,Bike,,can_be,always
-vehicle_type,Tandem,,can_be,always
-vehicle_type,Unicycle,,can_be,always
-vehicle_type,Tricycle,,can_be,always
-vehicle_type,Stroller,,can_be,never
-vehicle_type,Recumbent,,can_be,always
-vehicle_type,Bike Trailer,,can_be,never
-vehicle_type,Wheelchair,,can_be,never
+attribute,name,name extended,motorized (always/never/can_be),pedal (always/never/can_be)
+vehicle_type,Bike,Bike,can_be,always
+vehicle_type,Tandem,Tandem,can_be,always
+vehicle_type,Unicycle,Unicycle,can_be,always
+vehicle_type,Tricycle,Tricycle,can_be,always
+vehicle_type,Stroller,Stroller,can_be,never
+vehicle_type,Recumbent,Recumbent,can_be,always
+vehicle_type,Bike Trailer,Bike Trailer,can_be,never
+vehicle_type,Wheelchair,Wheelchair,can_be,never
 vehicle_type,Cargo Bike,Cargo Bike (front storage),can_be,always
 vehicle_type,Tall Bike,Tall Bike (multiple frames fused together),can_be,always
-vehicle_type,Penny Farthing,,can_be,always
+vehicle_type,Penny Farthing,Penny Farthing,can_be,always
 vehicle_type,Cargo Bike Rear,Cargo Bike Rear (e.g. longtail),can_be,always
 vehicle_type,Cargo Tricycle,"Cargo Tricycle (trike with front storage, e.g. Christiania bike)",can_be,always
 vehicle_type,Cargo Tricycle Rear,Cargo Tricycle (trike with rear storage),can_be,always
 vehicle_type,Trail behind,Trail behind (half bike),never,always
 vehicle_type,Pedi Cab,Pedi Cab (rickshaw),can_be,always
-vehicle_type,e-Scooter,,always,never
+vehicle_type,e-Scooter,e-Scooter,always,never
 vehicle_type,e-Personal Mobility,"e-Personal Mobility (EPAMD, e-Skateboard, Segway, e-Unicycle, etc)",always,never
 vehicle_type,Scooter,Scooter (not electric),never,never
 vehicle_type,Skateboard,Skateboard (not electric),never,never
 vehicle_type,e-Motorcycle,"e-Motorcycle (e-Dirt bike, e-bike with no pedals)",always,never
-vehicle_type,Elliptical bike,,can_be,never
-propulsion_type,Pedal,,never,always
-propulsion_type,Pedal Assist,,always,always
-propulsion_type,Throttle,,always,can_be
-propulsion_type,Pedal Assist and Throttle,,always,always
+vehicle_type,Elliptical bike,Elliptical bike,can_be,never
+propulsion_type,Pedal,Pedal,never,always
+propulsion_type,Pedal Assist,Pedal Assist,always,always
+propulsion_type,Throttle,Throttle,always,can_be
+propulsion_type,Pedal Assist and Throttle,Pedal Assist and Throttle,always,always
 propulsion_type,Hand Cycle,Hand Cycle (hand pedal),never,always
 propulsion_type,Human powered,Human powered (not by pedals),never,never
-frame_material,Steel,,,,steel
-frame_material,Aluminum,,,,aluminum
-frame_material,Carbon or composite,,,,composite
-frame_material,Titanium,,,,titanium
-frame_material,Magnesium,,,,magnesium
-frame_material,Wood or organic material,,,,organic
+frame_material,Steel,Steel,,
+frame_material,Aluminum,Aluminum,,
+frame_material,Carbon or composite,Carbon or composite,,
+frame_material,Titanium,Titanium,,
+frame_material,Magnesium,Magnesium,,
+frame_material,Wood or organic material,Wood or organic material,,
+motor_placement,Hub drive,Hub drive,always,can_be
+motor_placement,Mid drive,Mid drive,always,always
+motor_placement,Friction drive,Friction drive,always,can_be
