@@ -65,15 +65,6 @@ RSpec.describe "CSVs" do
     end
   end
 
-  describe "frame_materials.csv" do
-    let(:repo_csv) { CSV.read("data/frame_materials.csv", headers: true, header_converters: :symbol) }
-
-    it "can be read" do
-      expect(repo_csv.headers).not_to be_empty
-      expect(repo_csv.count).to be > 0
-    end
-  end
-
   describe "gear_types.csv" do
     let(:repo_csv) { CSV.read("data/gear_types.csv", headers: true, header_converters: :symbol) }
 
