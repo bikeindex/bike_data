@@ -29,14 +29,66 @@ RSpec.describe "CSVs" do
     end
   end
 
-  # Every CSV in data/ should be readable, have headers, and have at least one row
-  Dir[File.join(APP_ROOT, "data", "*.csv")].sort.each do |path|
-    describe File.basename(path) do
-      it "can be read" do
-        rows = CSV.read(path, headers: true, header_converters: :symbol)
-        expect(rows.headers).not_to be_empty
-        expect(rows.count).to be > 0
-      end
+  describe "wheel_sizes.csv" do
+    let(:repo_csv) { CSV.read("data/wheel_sizes.csv", headers: true, header_converters: :symbol) }
+
+    it "can be read" do
+      expect(repo_csv.headers).not_to be_empty
+      expect(repo_csv.count).to be > 0
+    end
+  end
+
+  describe "components.csv" do
+    let(:repo_csv) { CSV.read("data/components.csv", headers: true, header_converters: :symbol) }
+
+    it "can be read" do
+      expect(repo_csv.headers).not_to be_empty
+      expect(repo_csv.count).to be > 0
+    end
+  end
+
+  describe "vehicle_attributes.csv" do
+    let(:repo_csv) { CSV.read("data/vehicle_attributes.csv", headers: true, header_converters: :symbol) }
+
+    it "can be read" do
+      expect(repo_csv.headers).not_to be_empty
+      expect(repo_csv.count).to be > 0
+    end
+  end
+
+  describe "colors.csv" do
+    let(:repo_csv) { CSV.read("data/colors.csv", headers: true, header_converters: :symbol) }
+
+    it "can be read" do
+      expect(repo_csv.headers).not_to be_empty
+      expect(repo_csv.count).to be > 0
+    end
+  end
+
+  describe "frame_materials.csv" do
+    let(:repo_csv) { CSV.read("data/frame_materials.csv", headers: true, header_converters: :symbol) }
+
+    it "can be read" do
+      expect(repo_csv.headers).not_to be_empty
+      expect(repo_csv.count).to be > 0
+    end
+  end
+
+  describe "gear_types.csv" do
+    let(:repo_csv) { CSV.read("data/gear_types.csv", headers: true, header_converters: :symbol) }
+
+    it "can be read" do
+      expect(repo_csv.headers).not_to be_empty
+      expect(repo_csv.count).to be > 0
+    end
+  end
+
+  describe "handlebar_types.csv" do
+    let(:repo_csv) { CSV.read("data/handlebar_types.csv", headers: true, header_converters: :symbol) }
+
+    it "can be read" do
+      expect(repo_csv.headers).not_to be_empty
+      expect(repo_csv.count).to be > 0
     end
   end
 end
