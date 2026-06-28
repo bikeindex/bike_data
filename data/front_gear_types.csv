@@ -1,0 +1,6 @@
+name,slug,count,internal,standard
+1,1,1,false,true
+2,2,2,false,true
+3,3,3,false,true
+2 internal,2-internal,2,true,
+3 internal,3-internal,3,true,

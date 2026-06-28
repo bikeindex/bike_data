@@ -29,27 +29,14 @@ RSpec.describe "CSVs" do
     end
   end
 
-  describe "wheel_sizes.csv" do
-    let(:repo_csv) { CSV.read("data/wheel_sizes.csv", headers: true, header_converters: :symbol) }
-
-    it "parses" do
-      expect(repo_csv.count).to be > 0
-    end
-  end
-
-  describe "components.csv" do
-    let(:repo_csv) { CSV.read("data/components.csv", headers: true, header_converters: :symbol) }
-
-    it "parses" do
-      expect(repo_csv.count).to be > 0
-    end
-  end
-
-  describe "vehicle_attributes.csv" do
-    let(:repo_csv) { CSV.read("data/vehicle_attributes.csv", headers: true, header_converters: :symbol) }
-
-    it "parses" do
-      expect(repo_csv.count).to be > 0
+  # Every CSV in data/ should be readable, have headers, and have at least one row
+  Dir[File.join(APP_ROOT, "data", "*.csv")].sort.each do |path|
+    describe File.basename(path) do
+      it "can be read" do
+        rows = CSV.read(path, headers: true, header_converters: :symbol)
+        expect(rows.headers).not_to be_empty
+        expect(rows.count).to be > 0
+      end
     end
   end
 end
