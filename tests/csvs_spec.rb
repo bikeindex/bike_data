@@ -56,6 +56,28 @@ RSpec.describe "CSVs" do
     end
   end
 
+  describe "every data CSV" do
+    Dir[File.join(APP_ROOT, "data", "*.csv")].sort.each do |path|
+      relative_path = path.sub("#{APP_ROOT}/", "")
+
+      describe relative_path do
+        let(:rows) { CSV.read(path) }
+
+        it "has no rows with a different column count than the header" do
+          header_count = rows.first.length
+          ragged = rows.each_with_index.select { |row, _i| row.length != header_count }
+          ragged_line_numbers = ragged.map { |_row, i| i + 1 }
+
+          expect(ragged_line_numbers).to(
+            be_empty,
+            "expected every row to have #{header_count} columns, " \
+            "but these line numbers differ: #{ragged_line_numbers.join(", ")}"
+          )
+        end
+      end
+    end
+  end
+
   describe "colors.csv" do
     let(:repo_csv) { CSV.read("data/colors.csv", headers: true, header_converters: :symbol) }
 

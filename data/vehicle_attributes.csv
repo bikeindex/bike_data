@@ -1,4 +1,4 @@
-attribute,name,description,motorized (always/never/can_be),pedal (always/never/can_be),slug
+attribute,name,description,motorized (always/never/can_be),pedal (always/never/can_be)
 vehicle_type,Bike,,can_be,always
 vehicle_type,Tandem,,can_be,always
 vehicle_type,Unicycle,,can_be,always
@@ -27,12 +27,12 @@ propulsion_type,Throttle,,always,can_be
 propulsion_type,Pedal Assist and Throttle,,always,always
 propulsion_type,Hand Cycle,Hand Cycle (hand pedal),never,always
 propulsion_type,Human powered,Human powered (not by pedals),never,never
-frame_material,Steel,,,,steel
-frame_material,Aluminum,,,,aluminum
-frame_material,Carbon or composite,,,,composite
-frame_material,Titanium,,,,titanium
-frame_material,Magnesium,,,,magnesium
-frame_material,Wood or organic material,,,,organic
-motor_placement,Hub drive,,always,can_be,hub_drive
-motor_placement,Mid drive,,always,always,mid_drive
-motor_placement,Friction drive,,always,can_be,friction_drive
+frame_material,Steel,,,
+frame_material,Aluminum,,,
+frame_material,Carbon or composite,,,
+frame_material,Titanium,,,
+frame_material,Magnesium,,,
+frame_material,Wood or organic material,,,
+motor_placement,Hub drive,,always,can_be
+motor_placement,Mid drive,,always,always
+motor_placement,Friction drive,,always,can_be
