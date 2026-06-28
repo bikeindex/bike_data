@@ -1,16 +1,13 @@
 #!/bin/bash
 
-# Set default output file
-outfile_manufacturers="data/manufacturers.csv"
-outfile_activities="data/primary_activities.csv"
+# Default output directory
+outdir="data/"
 
-# Check if an argument was provided (it is the path)
+# Check if an argument was provided (it is the output directory prefix)
 if [ $# -ge 1 ]; then
-  outfile_path="$1"
-  outfile_manufacturers="${outfile_path}${outfile_manufacturers}"
-  outfile_activities="${outfile_path}${outfile_activities}"
+  outdir="$1"
 fi
 
 # Download the files
-wget -q https://bikeindex.org/manufacturers.csv -O $outfile_manufacturers
-wget -q https://bikeindex.org/primary_activities.csv -O $outfile_activities
+wget -q https://bikeindex.org/manufacturers.csv -O "${outdir}manufacturers.csv"
+wget -q https://bikeindex.org/primary_activities.csv -O "${outdir}primary_activities.csv"
