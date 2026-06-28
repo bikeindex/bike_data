@@ -1,4 +1,4 @@
-position,name,slug,count,internal,standard
+position (front/rear/both),name,slug,count,internal,standard
 front,1,1,1,false,true
 front,2,2,2,false,true
 front,3,3,3,false,true
@@ -34,3 +34,6 @@ rear,14,14,14,false,true
 rear,13 internal,13-internal,13,true,false
 rear,14 internal,14-internal,14,true,false
 rear,Continuously variable,continuously-variable,0,true,true
+both,Belt Drive,belt-drive,1,false,false
+rear,Coaster Brake,coaster-brake,1,true,false
+both,Shaft Drive,shaft-drive,1,true,false
