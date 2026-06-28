@@ -10,30 +10,28 @@ system("bin/download_from_bike_index tmp/", exception: true)
 BIKE_INDEX_MANUFACTURERS_CSV = CSV.read("tmp/manufacturers.csv", headers: true, header_converters: :symbol)
 BIKE_INDEX_ACTIVITIES_CSV = CSV.read("tmp/primary_activities.csv", headers: true, header_converters: :symbol)
 
-RSpec.shared_examples "a data CSV" do |path|
-  let(:repo_csv) { CSV.read(path, headers: true, header_converters: :symbol) }
-  let(:rows) { CSV.read(path) }
-
-  it "can be read" do
-    expect(repo_csv.headers).not_to be_empty
-    expect(repo_csv.count).to be > 0
-  end
-
-  it "has no rows with a different column count than the header" do
-    header_count = rows.first.length
-    ragged_line_numbers = rows.each_with_index
-      .select { |row, _i| row.length != header_count }
-      .map { |_row, i| i + 1 }
-
-    expect(ragged_line_numbers).to(
-      be_empty,
-      "expected every row to have #{header_count} columns, " \
-      "but these line numbers differ: #{ragged_line_numbers.join(", ")}"
-    )
-  end
-end
-
 RSpec.describe "CSVs" do
+  shared_examples "a data CSV" do |path|
+    let(:repo_csv) { CSV.read(path, headers: true, header_converters: :symbol) }
+    let(:rows) { CSV.read(path) }
+
+    it "can be read and has no rows with a different column count than the header" do
+      expect(repo_csv.headers).not_to be_empty
+      expect(repo_csv.count).to be > 0
+
+      header_count = rows.first.length
+      ragged_line_numbers = rows.each_with_index
+        .select { |row, _i| row.length != header_count }
+        .map { |_row, i| i + 1 }
+
+      expect(ragged_line_numbers).to(
+        be_empty,
+        "expected every row to have #{header_count} columns, " \
+        "but these line numbers differ: #{ragged_line_numbers.join(", ")}"
+      )
+    end
+  end
+
   describe "manufacturers.csv" do
     it_behaves_like "a data CSV", "data/manufacturers.csv"
 
