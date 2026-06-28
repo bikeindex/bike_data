@@ -11,3 +11,4 @@ fi
 # Download the files
 wget -q https://bikeindex.org/manufacturers.csv -O "${outdir}manufacturers.csv"
 wget -q https://bikeindex.org/primary_activities.csv -O "${outdir}primary_activities.csv"
+wget -q https://bikeindex.org/components.csv -O "${outdir}components.csv"
