@@ -10,6 +10,7 @@ The data here is used by [BikeIndex.org](https://bikeindex.org) to classify bike
 - Colors: [colors.csv](data/colors.csv)
 - Frame materials: [frame_materials.csv](data/frame_materials.csv)
 - Front gear types: [front_gear_types.csv](data/front_gear_types.csv)
+- Rear gear types: [rear_gear_types.csv](data/rear_gear_types.csv)
 - Handlebar types: [handlebar_types.csv](data/handlebar_types.csv)
 
 Are we missing a manufacturer? Or missing data about a manufacturer?
