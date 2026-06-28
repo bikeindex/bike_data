@@ -9,6 +9,7 @@ system("bin/download_from_bike_index tmp/", exception: true)
 
 BIKE_INDEX_MANUFACTURERS_CSV = CSV.read("tmp/manufacturers.csv", headers: true, header_converters: :symbol)
 BIKE_INDEX_ACTIVITIES_CSV = CSV.read("tmp/primary_activities.csv", headers: true, header_converters: :symbol)
+BIKE_INDEX_COMPONENTS_CSV = CSV.read("tmp/components.csv", headers: true, header_converters: :symbol)
 
 RSpec.describe "CSVs" do
   shared_examples "a data CSV" do |path|
@@ -60,6 +61,13 @@ RSpec.describe "CSVs" do
 
   describe "components.csv" do
     it_behaves_like "a data CSV", "data/components.csv"
+
+    let(:repo_csv) { CSV.read("data/components.csv", headers: true, header_converters: :symbol) }
+
+    it "has at least as many components as are on bikeindex, and the same headers" do
+      expect(repo_csv.count).to eq BIKE_INDEX_COMPONENTS_CSV.count
+      expect(repo_csv.headers).to eq BIKE_INDEX_COMPONENTS_CSV.headers
+    end
   end
 
   describe "vehicle_attributes.csv" do
