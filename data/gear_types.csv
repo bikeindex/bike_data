@@ -1,36 +1,39 @@
-position,name,slug,count,internal,standard
-front,1,1,1,false,true
-front,2,2,2,false,true
-front,3,3,3,false,true
-front,2 internal,2-internal,2,true,
-front,3 internal,3-internal,3,true,
-rear,1,1,1,false,true
-rear,2,2,2,false,true
-rear,3,3,3,false,true
-rear,4,4,4,false,true
-rear,5,5,5,false,true
-rear,6,6,6,false,true
-rear,7,7,7,false,true
-rear,8,8,8,false,true
-rear,9,9,9,false,true
-rear,10,10,10,false,true
-rear,11,11,11,false,true
-rear,12,12,12,false,true
-rear,Fixed,fixed,1,false,false
-rear,1 internal,1-internal,1,true,
-rear,2 internal,2-internal,2,true,
-rear,3 internal,3-internal,3,true,
-rear,4 internal,4-internal,4,true,
-rear,5 internal,5-internal,5,true,
-rear,6 internal,6-internal,6,true,
-rear,7 internal,7-internal,7,true,
-rear,8 internal,8-internal,8,true,
-rear,9 internal,9-internal,9,true,
-rear,10 internal,10-internal,10,true,
-rear,11 internal,11-internal,11,true,
-rear,12 internal,12-internal,12,true,
-rear,13,13,13,false,true
-rear,14,14,14,false,true
-rear,13 internal,13-internal,13,true,false
-rear,14 internal,14-internal,14,true,false
-rear,Continuously variable,continuously-variable,0,true,true
+position (front/rear/both),name,count,internal
+front,1,1,false
+front,2,2,false
+front,3,3,false
+front,2 internal,2,true
+front,3 internal,3,true
+rear,1,1,false
+rear,2,2,false
+rear,3,3,false
+rear,4,4,false
+rear,5,5,false
+rear,6,6,false
+rear,7,7,false
+rear,8,8,false
+rear,9,9,false
+rear,10,10,false
+rear,11,11,false
+rear,12,12,false
+rear,Fixed,1,false
+rear,1 internal,1,true
+rear,2 internal,2,true
+rear,3 internal,3,true
+rear,4 internal,4,true
+rear,5 internal,5,true
+rear,6 internal,6,true
+rear,7 internal,7,true
+rear,8 internal,8,true
+rear,9 internal,9,true
+rear,10 internal,10,true
+rear,11 internal,11,true
+rear,12 internal,12,true
+rear,13,13,false
+rear,14,14,false
+rear,13 internal,13,true
+rear,14 internal,14,true
+rear,Continuously variable,0,true
+both,Belt Drive,1,false
+rear,Coaster Brake,1,true
+both,Shaft Drive,1,true
