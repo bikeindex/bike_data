@@ -85,4 +85,8 @@ RSpec.describe "CSVs" do
   describe "handlebar_types.csv" do
     it_behaves_like "a data CSV", "data/handlebar_types.csv"
   end
+
+  describe "brakes.csv" do
+    it_behaves_like "a data CSV", "data/brakes.csv"
+  end
 end
