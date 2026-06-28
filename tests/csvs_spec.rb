@@ -10,8 +10,33 @@ system("bin/download_from_bike_index tmp/", exception: true)
 BIKE_INDEX_MANUFACTURERS_CSV = CSV.read("tmp/manufacturers.csv", headers: true, header_converters: :symbol)
 BIKE_INDEX_ACTIVITIES_CSV = CSV.read("tmp/primary_activities.csv", headers: true, header_converters: :symbol)
 
+RSpec.shared_examples "a data CSV" do |path|
+  let(:repo_csv) { CSV.read(path, headers: true, header_converters: :symbol) }
+  let(:rows) { CSV.read(path) }
+
+  it "can be read" do
+    expect(repo_csv.headers).not_to be_empty
+    expect(repo_csv.count).to be > 0
+  end
+
+  it "has no rows with a different column count than the header" do
+    header_count = rows.first.length
+    ragged_line_numbers = rows.each_with_index
+      .select { |row, _i| row.length != header_count }
+      .map { |_row, i| i + 1 }
+
+    expect(ragged_line_numbers).to(
+      be_empty,
+      "expected every row to have #{header_count} columns, " \
+      "but these line numbers differ: #{ragged_line_numbers.join(", ")}"
+    )
+  end
+end
+
 RSpec.describe "CSVs" do
   describe "manufacturers.csv" do
+    it_behaves_like "a data CSV", "data/manufacturers.csv"
+
     let(:repo_csv) { CSV.read("data/manufacturers.csv", headers: true, header_converters: :symbol) }
 
     it "has at least as many manufacturers as are on bikeindex, and the same headers" do
@@ -21,6 +46,8 @@ RSpec.describe "CSVs" do
   end
 
   describe "primary_activities.csv" do
+    it_behaves_like "a data CSV", "data/primary_activities.csv"
+
     let(:repo_csv) { CSV.read("data/primary_activities.csv", headers: true, header_converters: :symbol) }
 
     it "has at least as many activities as are on bikeindex, and the same headers" do
@@ -30,78 +57,26 @@ RSpec.describe "CSVs" do
   end
 
   describe "wheel_sizes.csv" do
-    let(:repo_csv) { CSV.read("data/wheel_sizes.csv", headers: true, header_converters: :symbol) }
-
-    it "can be read" do
-      expect(repo_csv.headers).not_to be_empty
-      expect(repo_csv.count).to be > 0
-    end
+    it_behaves_like "a data CSV", "data/wheel_sizes.csv"
   end
 
   describe "components.csv" do
-    let(:repo_csv) { CSV.read("data/components.csv", headers: true, header_converters: :symbol) }
-
-    it "can be read" do
-      expect(repo_csv.headers).not_to be_empty
-      expect(repo_csv.count).to be > 0
-    end
+    it_behaves_like "a data CSV", "data/components.csv"
   end
 
   describe "vehicle_attributes.csv" do
-    let(:repo_csv) { CSV.read("data/vehicle_attributes.csv", headers: true, header_converters: :symbol) }
-
-    it "can be read" do
-      expect(repo_csv.headers).not_to be_empty
-      expect(repo_csv.count).to be > 0
-    end
-  end
-
-  describe "every data CSV" do
-    Dir[File.join(APP_ROOT, "data", "*.csv")].sort.each do |path|
-      relative_path = path.sub("#{APP_ROOT}/", "")
-
-      describe relative_path do
-        let(:rows) { CSV.read(path) }
-
-        it "has no rows with a different column count than the header" do
-          header_count = rows.first.length
-          ragged = rows.each_with_index.select { |row, _i| row.length != header_count }
-          ragged_line_numbers = ragged.map { |_row, i| i + 1 }
-
-          expect(ragged_line_numbers).to(
-            be_empty,
-            "expected every row to have #{header_count} columns, " \
-            "but these line numbers differ: #{ragged_line_numbers.join(", ")}"
-          )
-        end
-      end
-    end
+    it_behaves_like "a data CSV", "data/vehicle_attributes.csv"
   end
 
   describe "colors.csv" do
-    let(:repo_csv) { CSV.read("data/colors.csv", headers: true, header_converters: :symbol) }
-
-    it "can be read" do
-      expect(repo_csv.headers).not_to be_empty
-      expect(repo_csv.count).to be > 0
-    end
+    it_behaves_like "a data CSV", "data/colors.csv"
   end
 
   describe "gear_types.csv" do
-    let(:repo_csv) { CSV.read("data/gear_types.csv", headers: true, header_converters: :symbol) }
-
-    it "can be read" do
-      expect(repo_csv.headers).not_to be_empty
-      expect(repo_csv.count).to be > 0
-    end
+    it_behaves_like "a data CSV", "data/gear_types.csv"
   end
 
   describe "handlebar_types.csv" do
-    let(:repo_csv) { CSV.read("data/handlebar_types.csv", headers: true, header_converters: :symbol) }
-
-    it "can be read" do
-      expect(repo_csv.headers).not_to be_empty
-      expect(repo_csv.count).to be > 0
-    end
+    it_behaves_like "a data CSV", "data/handlebar_types.csv"
   end
 end
