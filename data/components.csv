@@ -1,22 +1,22 @@
 name,secondary_name,has_multiple_locations,group
-unknown,,false,Additional parts
-Water Bottle Cage,,false,Additional parts
-Stem,Gooseneck,false,Additional parts
+unknown,,false,Additional Parts
+Water Bottle Cage,,false,Additional Parts
+Stem,Gooseneck,false,Additional Parts
 Bashguard/Chain Guide,,false,Drivetrain
 Fairing,,false,Frame and Fork
-Lights,,true,Additional parts
-Bell/Noisemaker,,false,Additional parts
+Lights,,true,Additional Parts
+Bell/Noisemaker,,false,Additional Parts
 Basket,,true,Cargo
 Chain Tensioners,Chain Tugs,false,Drivetrain
 Derailleur,,false,Drivetrain
 Training Wheels,,false,Wheels
 Bottom Bracket,,false,Drivetrain
 Brake,,true,Brakes
-Hub Guard,,false,Additional parts
+Hub Guard,,false,Additional Parts
 Generator/Dynamo,,true,Wheels
-Handlebar,,false,Additional parts
+Handlebar,,false,Additional Parts
 Wheel,,true,Wheels
-Saddle,,false,Additional parts
+Saddle,,false,Additional Parts
 Rim,,true,Wheels
 Axle Nuts,,true,Wheels
 Hub,,true,Wheels
@@ -38,17 +38,17 @@ Chainrings,,false,Drivetrain
 Cog/Cassette/Freewheel,,false,Drivetrain
 Crankset,,false,Drivetrain
 Pedals,,false,Drivetrain
-Computer,,false,Additional parts
-Pegs,,true,Additional parts
-Toe Clips,,false,Additional parts
-Grips/Tape,,false,Additional parts
-Seatpost Clamp,,false,Additional parts
+Computer,,false,Additional Parts
+Pegs,,true,Additional Parts
+Toe Clips,,false,Additional Parts
+Grips/Tape,,false,Additional Parts
+Seatpost Clamp,,false,Additional Parts
 Detangler,,false,Brakes
-Kickstand,,false,Additional parts
+Kickstand,,false,Additional Parts
 Rack,,true,Cargo
-Seatpost,,false,Additional parts
-Fender,,true,Additional parts
-Aero Bars/Extensions/Bar Ends,Aero Bars,false,Additional parts
+Seatpost,,false,Additional Parts
+Fender,,true,Additional Parts
+Aero Bars/Extensions/Bar Ends,Aero Bars,false,Additional Parts
 Ebike Battery,Electric Bike Battery,false,Drivetrain
 Ebike Motor,Electric Bike Motor,false,Drivetrain
 Pannier,Rack Bag,false,Cargo
