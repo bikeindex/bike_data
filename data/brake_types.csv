@@ -1,18 +1,18 @@
 name,secondary_name
+Band Brake,
+Cable Actuated Hydraulic,Hybrid Disc
+Caliper,Rim Caliper
+Cantilever,Canti
+Center Pull,Caliper Center Pull
+Coaster Brake,Back-Pedal Brake
+Delta Brake,
 Disc Hydraulic,Hydraulic Disc
 Disc Mechanical,Cable Disc
-Linear Pull,V-Brake
-Caliper,Rim Caliper
-Side Pull,Caliper Side Pull
-Center Pull,Caliper Center Pull
-Cantilever,Canti
-U-Brake,
-Coaster Brake,Back-Pedal Brake
 Drum Brake,
-Roller Brake,
-Band Brake,
-Rod Brake,Stirrup Brake
-Spoon Brake,Plunger Brake
 Hydraulic Rim,
-Delta Brake,
-Cable Actuated Hydraulic,Hybrid Disc
+Linear Pull,V-Brake
+Rod Brake,Stirrup Brake
+Roller Brake,
+Side Pull,Caliper Side Pull
+Spoon Brake,Plunger Brake
+U-Brake,

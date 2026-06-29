@@ -45,17 +45,17 @@ Saddle,,false,Additional Parts
 Seat Bag,Saddle Bag,false,Cargo
 Seatpost,,false,Additional Parts
 Seatpost Clamp,,false,Additional Parts
-Shift Cable,,false,Drivetrain
 Shift and Brake Lever,,true,Drivetrain
+Shift Cable,,false,Drivetrain
 Shifter,,true,Drivetrain
 Spokes,,true,Wheels
 Stem,Gooseneck,false,Additional Parts
 Tire,,true,Wheels
 Toe Clips,,false,Additional Parts
-Top Tube Bag,Bento Box,false,Cargo
 Top of Rack Bag,Rack Bag,false,Cargo
+Top Tube Bag,Bento Box,false,Cargo
 Training Wheels,,false,Wheels
 Tube,,true,Wheels
+unknown,,false,Additional Parts
 Water Bottle Cage,,false,Additional Parts
 Wheel,,true,Wheels
-unknown,,false,Additional Parts
