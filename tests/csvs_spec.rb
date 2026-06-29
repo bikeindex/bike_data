@@ -33,8 +33,27 @@ RSpec.describe "CSVs" do
     end
   end
 
+  # Verifies the data rows are sorted case-insensitively by their first column.
+  shared_examples "an alphabetized CSV" do |path|
+    let(:values) { CSV.read(path)[1..].map { |row| row.first.to_s } }
+
+    it "is alphabetized (case-insensitively) by its first column" do
+      sorted = values.sort_by(&:downcase)
+
+      out_of_order = values.each_index.reject { |i| values[i] == sorted[i] }
+        .map { |i| "line #{i + 2}: #{values[i].inspect}" }
+
+      expect(values).to(
+        eq(sorted),
+        "expected rows to be sorted by the first column, but these are out of order: " \
+        "#{out_of_order.join(", ")}"
+      )
+    end
+  end
+
   describe "manufacturers.csv" do
     it_behaves_like "a data CSV", "data/manufacturers.csv"
+    it_behaves_like "an alphabetized CSV", "data/manufacturers.csv"
 
     let(:repo_csv) { CSV.read("data/manufacturers.csv", headers: true, header_converters: :symbol) }
 
@@ -61,6 +80,7 @@ RSpec.describe "CSVs" do
 
   describe "component_types.csv" do
     it_behaves_like "a data CSV", "data/component_types.csv"
+    it_behaves_like "an alphabetized CSV", "data/component_types.csv"
 
     let(:repo_csv) { CSV.read("data/component_types.csv", headers: true, header_converters: :symbol) }
 
@@ -76,6 +96,7 @@ RSpec.describe "CSVs" do
 
   describe "colors.csv" do
     it_behaves_like "a data CSV", "data/colors.csv"
+    it_behaves_like "an alphabetized CSV", "data/colors.csv"
   end
 
   describe "drivetrain_attributes.csv" do
@@ -84,9 +105,11 @@ RSpec.describe "CSVs" do
 
   describe "handlebar_types.csv" do
     it_behaves_like "a data CSV", "data/handlebar_types.csv"
+    it_behaves_like "an alphabetized CSV", "data/handlebar_types.csv"
   end
 
   describe "brake_types.csv" do
     it_behaves_like "a data CSV", "data/brake_types.csv"
+    it_behaves_like "an alphabetized CSV", "data/brake_types.csv"
   end
 end
