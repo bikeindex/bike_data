@@ -9,7 +9,7 @@ system("bin/download_from_bike_index tmp/", exception: true)
 
 BIKE_INDEX_MANUFACTURERS_CSV = CSV.read("tmp/manufacturers.csv", headers: true, header_converters: :symbol)
 BIKE_INDEX_ACTIVITIES_CSV = CSV.read("tmp/primary_activities.csv", headers: true, header_converters: :symbol)
-BIKE_INDEX_COMPONENTS_CSV = CSV.read("tmp/components.csv", headers: true, header_converters: :symbol)
+BIKE_INDEX_COMPONENTS_CSV = CSV.read("tmp/component_types.csv", headers: true, header_converters: :symbol)
 
 RSpec.describe "CSVs" do
   shared_examples "a data CSV" do |path|
