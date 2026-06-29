@@ -59,10 +59,10 @@ RSpec.describe "CSVs" do
     it_behaves_like "a data CSV", "data/wheel_sizes.csv"
   end
 
-  describe "component_type.csv" do
-    it_behaves_like "a data CSV", "data/component_type.csv"
+  describe "component_types.csv" do
+    it_behaves_like "a data CSV", "data/component_types.csv"
 
-    let(:repo_csv) { CSV.read("data/component_type.csv", headers: true, header_converters: :symbol) }
+    let(:repo_csv) { CSV.read("data/component_types.csv", headers: true, header_converters: :symbol) }
 
     it "has at least as many components as are on bikeindex, and the same headers" do
       expect(repo_csv.count).to eq BIKE_INDEX_COMPONENTS_CSV.count
@@ -86,7 +86,7 @@ RSpec.describe "CSVs" do
     it_behaves_like "a data CSV", "data/handlebar_types.csv"
   end
 
-  describe "brake_type.csv" do
-    it_behaves_like "a data CSV", "data/brake_type.csv"
+  describe "brake_types.csv" do
+    it_behaves_like "a data CSV", "data/brake_types.csv"
   end
 end
