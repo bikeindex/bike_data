@@ -1,14 +1,20 @@
 #!/bin/bash
 
-# Default output directory
-outdir="data/"
+# Default output directory: a bare run refreshes the maintained data/ files
+# from bike_index. Pass a different directory (e.g. tmp/) as the first argument
+# to download reference snapshots without touching data/.
+outdir="data"
 
-# Check if an argument was provided (it is the output directory prefix)
+# Check if an argument was provided (it is the output directory)
 if [ $# -ge 1 ]; then
   outdir="$1"
 fi
 
-# Download the files
+# Normalize to a single trailing slash so "data" and "data/" both work
+outdir="${outdir%/}/"
+
+# Download the files. bike_index serves components.csv; the repo maintains it
+# as component_types.csv (see #46), so save it under that name.
 wget -q https://bikeindex.org/manufacturers.csv -O "${outdir}manufacturers.csv"
 wget -q https://bikeindex.org/primary_activities.csv -O "${outdir}primary_activities.csv"
-wget -q https://bikeindex.org/components.csv -O "${outdir}components.csv"
+wget -q https://bikeindex.org/components.csv -O "${outdir}component_types.csv"
