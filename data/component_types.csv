@@ -20,11 +20,12 @@ Computer,,false,Additional Parts
 Crankset,,false,Drivetrain
 Derailleur,,false,Drivetrain
 Detangler,,false,Brakes
-e-vehicle Battery,Electric Vehicle Battery,false,Drivetrain
-e-vehicle Charger,Electric Vehicle Charger,false,Drivetrain
-e-vehicle Display/Remote,Electric Vehicle Computer,false,Drivetrain
-e-vehicle Motor,Electric Vehicle Motor,false,Drivetrain
-e-vehicle Wiring Harness,Electric Vehicle Wiring Harness,false,Drivetrain
+Drive belt,"",false,Drivetrain
+E-vehicle Battery,Electric Bike Battery,false,Drivetrain
+E-vehicle Charger,Electric Bike Charger,false,Drivetrain
+E-vehicle Display/Remote,Electric Bike Computer,false,Drivetrain
+E-vehicle Motor,Electric Bike Motor,false,Drivetrain
+E-vehicle Wiring Harness,Electric Bike Wiring Harness,false,Drivetrain
 Fairing,,false,Frame and Fork
 Fender,,true,Additional Parts
 Fork,,false,Frame and Fork
