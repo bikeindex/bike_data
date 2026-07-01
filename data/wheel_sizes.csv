@@ -1,7 +1,10 @@
 name,iso_bsd,priority,description
+6in,90,uncommon,"6in (6 x 1 1/4, 150 x 30) small kick/e-scooters (Uncommon)"
 8in,93,uncommon,"8in (200 x 50, ETRTO 47-93) smaller e-scooters and hoverboards (Uncommon)"
+6.5in,110,uncommon,"6.5in solid tire, Hiboy S2 Lite and hoverboard-style scooters (Uncommon)"
 8.5in,134,common,"8.5in (8 1/2 x 2, ISO 50-134) Xiaomi M365/Pro and most 8.5in e-scooters (Common)"
 8 x 1 1/4,137,rare,8 x 1 1/4 (Rare)
+9in,145,uncommon,"9in (9 x 2) Hiboy S2R Plus and other 9in e-scooters (Uncommon)"
 10in,152,common,"10in (10 x 2, 54-152) Ninebot ES/Max and many 10in e-scooters (Common)"
 11in,165,uncommon,"11in (90/65-6.5; Ninebot Max 10in uses 60/70-6.5) Dualtron, Ninebot Max e-scooters (Uncommon)"
 12in,203,standard,12in (Standard size)
