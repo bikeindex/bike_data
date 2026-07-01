@@ -18,3 +18,20 @@ outdir="${outdir%/}/"
 wget -q https://bikeindex.org/manufacturers.csv -O "${outdir}manufacturers.csv"
 wget -q https://bikeindex.org/primary_activities.csv -O "${outdir}primary_activities.csv"
 wget -q https://bikeindex.org/components.csv -O "${outdir}component_types.csv"
+
+# bike_index does not serve these alphabetized, but the repo (and csvs_spec)
+# requires them sorted case-insensitively by their first column. Re-sort in
+# place so a bare refresh keeps the maintained data/ files ordered.
+sort_csv() {
+  ruby -rcsv -e '
+    path = ARGV[0]
+    table = CSV.read(path, headers: true)
+    File.write(path, CSV.generate do |csv|
+      csv << table.headers
+      table.sort_by { |row| row[0].to_s.downcase }.each { |row| csv << row }
+    end)
+  ' "$1"
+}
+
+sort_csv "${outdir}manufacturers.csv"
+sort_csv "${outdir}component_types.csv"
