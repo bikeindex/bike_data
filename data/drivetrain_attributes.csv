@@ -4,6 +4,10 @@ front,2,2,false
 front,3,3,false
 front,2 Internal,2,true
 front,3 Internal,3,true
+front,6 Speed Pinion Gearbox,6,true
+front,9 Speed Pinion Gearbox,9,true
+front,12 Speed Pinion Gearbox,12,true
+front,18 Speed Pinion Gearbox,18,true
 rear,1,1,false
 rear,2,2,false
 rear,3,3,false
