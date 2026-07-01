@@ -1,6 +1,9 @@
 name,iso_bsd,priority,description
+8in,93,uncommon,"8in (200 x 50, ETRTO 47-93) smaller e-scooters and hoverboards (Uncommon)"
+8.5in,134,common,"8.5in (8 1/2 x 2, ISO 50-134) Xiaomi M365/Pro and most 8.5in e-scooters (Common)"
 8 x 1 1/4,137,rare,8 x 1 1/4 (Rare)
-10 x 2,152,rare,10 x 2 (Rare)
+10in,152,common,"10in (10 x 2, 54-152) Ninebot ES/Max and many 10in e-scooters (Common)"
+11in,165,uncommon,"11in (90/65-6.5; Ninebot Max 10in uses 60/70-6.5) Dualtron, Ninebot Max e-scooters (Uncommon)"
 12in,203,standard,12in (Standard size)
 16in,305,standard,16in (Standard size)
 16 x 1 3/4,317,rare,16 x 1 3/4 (Rare)
