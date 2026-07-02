@@ -21,6 +21,7 @@ vehicle_type,Scooter,Scooter (Not Electric),never,never
 vehicle_type,Skateboard,Skateboard (Not Electric),never,never
 vehicle_type,e-Motorcycle,"e-Motorcycle (e-Dirt Bike, e-Bike with No Pedals)",always,never
 vehicle_type,Elliptical Bike,Elliptical Bike,can_be,never
+vehicle_type,Balance Bike,Balance Bike (No Pedals),never,never
 propulsion_type,Pedal,Pedal,never,always
 propulsion_type,Pedal Assist,Pedal Assist,always,always
 propulsion_type,Throttle,Throttle,always,can_be
