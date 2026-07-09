@@ -55,6 +55,7 @@ Shift Cable,,false,Drivetrain
 Shifter,,true,Drivetrain
 Spokes,,true,Wheels
 Stem,Gooseneck,false,Additional Parts
+Throttle,"",false,Drivetrain
 Tire,,true,Wheels
 Toe Clips,,false,Additional Parts
 Top of Rack Bag,Rack Bag,false,Cargo
