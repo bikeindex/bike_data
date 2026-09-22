@@ -1,0 +1,1027 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bikeindex.org/schemas/vehicle/v0.15.0.json",
+  "title": "Bikebook vehicle model",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "format": "uri"
+    },
+    "schema_version": {
+      "const": "0.15.0"
+    },
+    "vehicle": {
+      "type": "object",
+      "properties": {
+        "manufacturer": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "x-complete": true
+        },
+        "model": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "x-complete": true
+        },
+        "vehicle_model_group": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Model family grouping sibling models/variants"
+        },
+        "type": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Bike",
+            "Tandem",
+            "Unicycle",
+            "Tricycle",
+            "Stroller",
+            "Recumbent",
+            "Bike Trailer",
+            "Wheelchair",
+            "Cargo Bike",
+            "Tall Bike",
+            "Penny Farthing",
+            "Cargo Bike Rear",
+            "Cargo Tricycle",
+            "Cargo Tricycle Rear",
+            "Trail Behind",
+            "Pedi Cab",
+            "e-Scooter",
+            "e-Personal Mobility",
+            "Scooter",
+            "Skateboard",
+            "e-Motorcycle",
+            "Elliptical Bike",
+            "Balance Bike",
+            null
+          ],
+          "description": "Vehicle class",
+          "x-complete": true
+        },
+        "propulsion": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Pedal",
+            "Pedal Assist",
+            "Throttle",
+            "Pedal Assist and Throttle",
+            "Hand Cycle",
+            "Human Powered",
+            null
+          ],
+          "x-complete": true
+        },
+        "primary_activity": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Commuting (Around Town / Hybrid)",
+            "MTB (Mountain Biking)",
+            "Road Biking",
+            "ATB (All Terrain Biking) — Gravel, Cyclocross, etc.",
+            "Cargo",
+            "BMX",
+            "Bike Polo",
+            "Fixed Gear Freestyle",
+            "DJ (Dirt Jumping)",
+            "Track Racing",
+            "Trials",
+            "Gravel",
+            "Cyclocross",
+            "Bikepacking",
+            "Bike Touring",
+            "Randonneuring",
+            "All Road",
+            "Monster Cross",
+            "Triathalon",
+            "Time Trial",
+            "Criterium",
+            "Climbing",
+            "Aero",
+            "Endurance / Sportive",
+            "Trail / All-Mountain",
+            "Cross-Country (XC)",
+            "Enduro",
+            "Downhill",
+            "Freeride",
+            "Child Carrying",
+            "Commercial",
+            "Race",
+            "Freestyle",
+            "Flatland",
+            "Cruiser",
+            "Pursuit",
+            "Sprint",
+            "Keirin / NJS",
+            "Slopestyle",
+            "4X/Dual Slalom",
+            "Street Trials",
+            "Pure Trials",
+            "Artistic Cycling",
+            null
+          ],
+          "x-complete": true
+        },
+        "handlebar_type": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "BMX Style",
+            "Drop Bars",
+            "Flat or Riser",
+            "Forward Facing",
+            "Not Handlebars",
+            "Rear Facing",
+            null
+          ],
+          "x-complete": true
+        },
+        "first_year": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "x-complete": true
+        },
+        "final_year": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "Last year the model was still offered (latest snapshot year); nil while still current"
+        },
+        "stock_photo": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri",
+          "description": "Bikebook-hosted copy of the manufacturer's product photo"
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          },
+          "description": "URLs parsed from, in parse order"
+        },
+        "years": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "year": {
+                "type": "integer"
+              },
+              "original_msrp": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "description": "In cents",
+                "x-unit": "cents"
+              },
+              "original_msrp_currency": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "ISO 4217 currency code, e.g. USD"
+              },
+              "paint_descriptions": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "paint_color_codes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "Hex per paint, index-aligned with paint_descriptions"
+              },
+              "url": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "uri",
+                "description": "Product page URL, from the most authoritative source stating one"
+              },
+              "url_live": {
+                "type": [
+                  "boolean",
+                  "null"
+                ],
+                "description": "Whether the URL currently resolves"
+              },
+              "url_is_official": {
+                "type": [
+                  "boolean",
+                  "null"
+                ],
+                "description": "Whether the URL is a manufacturer page (vs a third-party review)"
+              }
+            },
+            "required": [
+              "year"
+            ],
+            "additionalProperties": false
+          },
+          "description": "One record per model year, newest first"
+        },
+        "frame": {
+          "type": "object",
+          "properties": {
+            "material": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "Steel",
+                "Aluminum",
+                "Carbon or Composite",
+                "Titanium",
+                "Magnesium",
+                "Wood or Organic Material",
+                null
+              ],
+              "x-complete": true
+            },
+            "folding": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "suspension_front_travel": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "description": "In millimeters",
+              "x-unit": "mm"
+            },
+            "suspension_rear_travel": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "description": "In millimeters",
+              "x-unit": "mm"
+            },
+            "fender_mounts": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "rack_mounts": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "water_bottle_mounts": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "Downtube",
+                  "Seat Tube",
+                  "Under Downtube",
+                  "Fork legs"
+                ]
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "wheels": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "bsd": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "description": "In millimeters",
+                "x-unit": "mm",
+                "x-complete": true
+              },
+              "position": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "front",
+                    "rear",
+                    "left",
+                    "right",
+                    "front_left",
+                    "front_right",
+                    "rear_left",
+                    "rear_right"
+                  ]
+                },
+                "x-complete": true
+              },
+              "tire_width_mm": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "description": "In millimeters",
+                "x-unit": "mm"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "drivetrain": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "1 Front",
+              "2 Front",
+              "3 Front",
+              "2 Internal Front",
+              "3 Internal Front",
+              "6 Speed Pinion Gearbox Front",
+              "9 Speed Pinion Gearbox Front",
+              "12 Speed Pinion Gearbox Front",
+              "18 Speed Pinion Gearbox Front",
+              "1 Rear",
+              "2 Rear",
+              "3 Rear",
+              "4 Rear",
+              "5 Rear",
+              "6 Rear",
+              "7 Rear",
+              "8 Rear",
+              "9 Rear",
+              "10 Rear",
+              "11 Rear",
+              "12 Rear",
+              "13 Rear",
+              "14 Rear",
+              "1 Internal Rear",
+              "2 Internal Rear",
+              "3 Internal Rear",
+              "4 Internal Rear",
+              "5 Internal Rear",
+              "6 Internal Rear",
+              "7 Internal Rear",
+              "8 Internal Rear",
+              "9 Internal Rear",
+              "10 Internal Rear",
+              "11 Internal Rear",
+              "12 Internal Rear",
+              "13 Internal Rear",
+              "14 Internal Rear",
+              "Fixed",
+              "Continuously Variable",
+              "Coaster Brake",
+              "Belt Drive",
+              "Shaft Drive"
+            ]
+          },
+          "description": "Position-qualified gear count or internal hub (e.g. '12 Rear', '12 Internal Rear'), or special (Fixed/Belt Drive/etc.)",
+          "x-complete": true
+        },
+        "brakes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "Disc Hydraulic",
+                  "Disc Mechanical",
+                  "Linear Pull",
+                  "Caliper",
+                  "Side Pull",
+                  "Center Pull",
+                  "Cantilever",
+                  "U-Brake",
+                  "Coaster Brake",
+                  "Drum Brake",
+                  "Roller Brake",
+                  "Band Brake",
+                  "Rod Brake",
+                  "Spoon Brake",
+                  "Hydraulic Rim",
+                  "Delta Brake",
+                  "Cable Actuated Hydraulic",
+                  null
+                ],
+                "x-complete": true
+              },
+              "position": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "front",
+                    "rear",
+                    "left",
+                    "right",
+                    "front_left",
+                    "front_right",
+                    "rear_left",
+                    "rear_right"
+                  ]
+                },
+                "x-complete": true
+              },
+              "rotor_diameter": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "description": "In millimeters",
+                "x-unit": "mm"
+              },
+              "caliper_mount": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "Disc Flat Mount",
+                  "Disc Post Mount",
+                  "Disc IS",
+                  "Center Bolt",
+                  "Brake Bosses",
+                  null
+                ]
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "motor": {
+          "type": "object",
+          "properties": {
+            "certification": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "water_rating": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "IP ingress-protection rating, e.g. IPX7"
+            },
+            "battery_size": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "description": "In watt-hours",
+              "x-unit": "wh"
+            },
+            "battery_chemistry": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "li-ion",
+                "lifepo4",
+                "nimh",
+                "lead-acid",
+                null
+              ]
+            },
+            "battery_info": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "Additional Battery Info (e.g. Cell Type"
+            },
+            "charging_time": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "description": "In minutes",
+              "x-unit": "minutes"
+            },
+            "range_claimed": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "description": "In kilometers",
+              "x-unit": "km"
+            },
+            "rated_power": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "description": "Continuous/nominal, basis for legal class, in watts",
+              "x-unit": "w"
+            },
+            "peak_power": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "description": "In watts",
+              "x-unit": "w"
+            },
+            "max_torque": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "description": "In newton-meters",
+              "x-unit": "nm"
+            },
+            "max_speed": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "description": "In kilometers per hour",
+              "x-unit": "km/h"
+            },
+            "overrideable_max_speed": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "e_bike_class": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "1",
+                "2",
+                "3",
+                "2_and_3",
+                null
+              ]
+            },
+            "motor_placement": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "Hub Drive",
+                "Mid Drive",
+                "Friction Drive",
+                null
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "cargo": {
+          "type": "object",
+          "properties": {
+            "length": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "description": "In millimeters",
+              "x-unit": "mm"
+            },
+            "width": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "description": "In millimeters",
+              "x-unit": "mm"
+            },
+            "max_weight_total": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "description": "Total payload incl. rider, in kilograms",
+              "x-unit": "kg"
+            },
+            "max_weight_cargo": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "description": "In kilograms",
+              "x-unit": "kg"
+            },
+            "type": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "Short Tail",
+                "Mid Tail",
+                "Long Tail",
+                "Front Box",
+                "Front Platform",
+                null
+              ],
+              "description": "Load-area form: Tail types sit behind the rider; Front Box is a walled front load area, Front Platform a flat sideless front deck"
+            },
+            "attributes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "sizes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Unvalidated: ordinal (S/M/L), inches, or cm"
+              },
+              "geometry": {
+                "type": "object",
+                "properties": {
+                  "reach": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Reach, in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "stack": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Stack, in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "top_tube_effective": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Top Tube (effective), in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "top_tube_ctc": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Top Tube center-to-center, in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "seat_tube_ctc": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Seat Tube C to C, in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "seat_tube_ct": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Seat Tube center-to-top, in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "head_angle": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Head Angle, in degrees",
+                    "x-unit": "degrees"
+                  },
+                  "seat_angle": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Seat Angle, in degrees",
+                    "x-unit": "degrees"
+                  },
+                  "head_tube": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Head Tube, in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "chainstay": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Chainstay, in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "wheelbase": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Wheelbase, in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "front_center": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Front Centre, in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "standover": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Standover, in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "bb_drop": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "BB Drop, in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "bb_height": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "BB Height, in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "fork_rake": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Fork Rake / Offset, in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "trail": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Trail, in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "fork_length_a2c": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Fork Length (A2C), in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "handlebar_width": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Handlebar Width, in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "stem_length": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Stem Length, in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "crank_length": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Crank Length, in millimeters",
+                    "x-unit": "mm"
+                  },
+                  "total_weight": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Total vehicle weight at this size, in kilograms",
+                    "x-unit": "kg"
+                  },
+                  "max_weight_rider": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "description": "Max total payload (rider + cargo), in kilograms",
+                    "x-unit": "kg"
+                  },
+                  "extra_measurements": {
+                    "type": [
+                      "object",
+                      "null"
+                    ],
+                    "description": "Non-canonical measurements, gathered on coerce"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "x-complete": true
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": [
+                  "unknown",
+                  "Water Bottle Cage",
+                  "Stem",
+                  "Bashguard/Chain Guide",
+                  "Fairing",
+                  "Lights",
+                  "Bell/Noisemaker",
+                  "Basket",
+                  "Chain Tensioners",
+                  "Derailleur",
+                  "Training Wheels",
+                  "Bottom Bracket",
+                  "Brake",
+                  "Hub Guard",
+                  "Generator/Dynamo",
+                  "Handlebar",
+                  "Wheel",
+                  "Saddle",
+                  "Rim",
+                  "Axle Nuts",
+                  "Hub",
+                  "Spokes",
+                  "Tube",
+                  "Tire",
+                  "Brake Lever",
+                  "Shift and Brake Lever",
+                  "Brake Rotor",
+                  "Brake Pad",
+                  "Shifter",
+                  "Throttle",
+                  "Fork",
+                  "Rear Suspension",
+                  "Headset",
+                  "Brake Cable",
+                  "Shift Cable",
+                  "Chain",
+                  "Drive Belt",
+                  "Chainrings",
+                  "Cog/Cassette/Freewheel",
+                  "Crankset",
+                  "Pedals",
+                  "Computer",
+                  "Pegs",
+                  "Toe Clips",
+                  "Grips/Tape",
+                  "Seatpost Clamp",
+                  "Detangler",
+                  "Kickstand",
+                  "Rack",
+                  "Seatpost",
+                  "Fender",
+                  "Aero Bars/Extensions/Bar Ends",
+                  "E-vehicle Battery",
+                  "E-vehicle Charger",
+                  "E-vehicle Display/Remote",
+                  "E-vehicle Motor",
+                  "E-vehicle Wiring Harness",
+                  "Pannier",
+                  "Frame Bag",
+                  "Internal Frame Storage",
+                  "Cargo Bike Side Rails",
+                  "Handlebar Bag",
+                  "Seat Bag",
+                  "Top Tube Bag",
+                  "Child Seat",
+                  "Top of Rack Bag"
+                ],
+                "description": "Component category"
+              },
+              "type_detail": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "position": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "front",
+                    "rear",
+                    "left",
+                    "right",
+                    "front_left",
+                    "front_right",
+                    "rear_left",
+                    "rear_right",
+                    "captain",
+                    "stoker"
+                  ]
+                },
+                "description": "Array of front, rear, left, right, front_left, front_right, rear_left, rear_right, captain, stoker, or nil"
+              },
+              "manufacturer": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "description": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "type"
+            ],
+            "additionalProperties": false
+          },
+          "x-complete": true
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "vehicle"
+  ],
+  "additionalProperties": false
+}
