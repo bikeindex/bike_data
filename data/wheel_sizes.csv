@@ -7,7 +7,10 @@ name,iso_bsd,priority,description
 9in,145,uncommon,"9in (9 x 2) Hiboy S2R Plus and other 9in e-scooters (Uncommon)"
 10in,152,common,"10in (10 x 2, 54-152) Ninebot ES/Max and many 10in e-scooters (Common)"
 11in,165,uncommon,"11in (90/65-6.5; Ninebot Max 10in uses 60/70-6.5) Dualtron, Ninebot Max e-scooters (Uncommon)"
+10in (6.9in rim),175,uncommon,"10in (60/65-6.9) Segway Ninebot Max G2, E2 Pro, E3, F3 e-scooters (Uncommon)"
+11in (7.5in rim),191,uncommon,"11in (7.5in rim) Segway GT3, Max G3 e-scooters (Uncommon)"
 12in,203,standard,12in (Standard size)
+14in,254,standard,14in (Standard size)
 16in,305,standard,16in (Standard size)
 16 x 1 3/4,317,rare,16 x 1 3/4 (Rare)
 16 x 1 3/8,335,rare,16 x 1 3/8 Polish juvenile (Rare)
@@ -16,12 +19,15 @@ name,iso_bsd,priority,description
 16 x 1 3/8,349,rare,"16 x 1 3/8, mysterious (Rare)"
 18in,355,standard,18in (Standard size)
 17 x 1 1/4,369,rare,17 x 1 1/4 (Rare)
+19in trials,387,rare,"19in trials unicycle, Kris Holm (Rare)"
 450 A,390,rare,450 A (Rare)
 20in,406,standard,20in (Standard size)
 20 x 1 3/4,419,rare,20 x 1 3/4 (Rare)
+17in moto,432,uncommon,"17in motorcycle rim (70/100-17, 80/100-17) Sur-Ron Light Bee S, Segway Xaber e-motos (Uncommon)"
 500 A,440,rare,500 A (Rare)
 20 x 1 1/8; x 1 1/4; x 1 3/8,451,uncommon,20 x 1 1/8; x 1 1/4; x 1 3/8 (Uncommon)
 22 x 1.75; x 2.125,457,rare,22 x 1.75; x 2.125 (Rare)
+19in moto,483,uncommon,"19in motorcycle rim (70/100-19) Sur-Ron Light Bee X, Ultra Bee, Segway Xaber e-motos (Uncommon)"
 550 A,490,rare,550 A (Rare)
 24in,507,standard,24in (Standard size)
 24 x 1,520,uncommon,24 x 1 performance wheels for smaller riders (Uncommon)
