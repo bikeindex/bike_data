@@ -8,7 +8,7 @@ name,alternate_name,website,makes_frames,ebike_only,open_year,close_year,logo_ur
 45North,,,false,false,,,
 4iiii,,https://4iiii.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/1781/4iiii.com
 4ZA,,https://4za.the-line.nl/,false,false,,,https://files.bikeindex.org/uploads/Ma/377/4za.the-line.nl
-5th Wheel,,https://5thwheelebike.com,true,true,,,
+5th Wheel,,https://5thwheelebike.com,true,true,,,https://files.bikeindex.org/uploads/Ma/1826/5thwheelebike.com
 6KU,,https://www.6ku.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1274/6kubikescom.png
 79Bike,,https://79bike.com,true,true,,,https://files.bikeindex.org/uploads/Ma/1815/79bike.com
 9 zero 7,,https://www.facebook.com/9Zero7Bikes,true,false,,,https://files.bikeindex.org/uploads/Ma/1113/www.facebook.com
@@ -38,7 +38,7 @@ Affinity Cycles,,http://affinitycycles.com/,true,false,,,https://files.bikeindex
 AGang,,http://www.agang.eu,true,false,,,https://files.bikeindex.org/uploads/Ma/1255/www.agang.eu
 AheadSet,,,false,false,,,
 AIMA E-Bike,,https://www.aimatech.us/,true,true,,,https://files.bikeindex.org/uploads/Ma/1777/www.aimatech.us
-Aipas,,https://aipasbike.com,true,true,,,
+Aipas,,https://aipasbike.com,true,true,,,https://files.bikeindex.org/uploads/Ma/1827/aipasbike.com
 Airborne,,http://www.airbornebicycles.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1133/www.airbornebicycles.com
 Aladdin,,,false,false,,,
 ALAN,,http://www.alanbike.it/,true,false,,,https://files.bikeindex.org/uploads/Ma/24/www.alanbike.it
@@ -61,16 +61,16 @@ American Machine and Foundry,,,true,false,,,
 American Star Bicycle,,,true,false,,,
 AMF,,,true,false,,,
 Amoeba,,http://www.amoebaparts.com/,true,false,,,
-AmTryke,,https://www.amtryke.org,true,false,,,
+AmTryke,,https://www.amtryke.org,true,false,,,https://files.bikeindex.org/uploads/Ma/1821/www.amtryke.org
 Ancheer,,https://www.ancheer.shop/,true,true,,,https://files.bikeindex.org/uploads/Ma/1755/www.ancheer.shop
 And,,,false,false,,,
 Andiamo,,,false,false,,,
-Andsky,,https://andskyebike.com,true,true,,,
+Andsky,,https://andskyebike.com,true,true,,,https://files.bikeindex.org/uploads/Ma/1828/andskyebike.com
 Aniioki,,https://aniioki.com/,true,true,,,https://files.bikeindex.org/uploads/Ma/1799/aniioki.com
 Answer BMX,,https://answerbmx.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/394/answerbmx.com
-Aostir,,https://aostirmotor.com,true,true,,,
+Aostir,,https://aostirmotor.com,true,true,,,https://files.bikeindex.org/uploads/Ma/1829/aostirmotor.com
 Apache Bicycles,,https://apache-bike.cz/en,true,false,,,https://files.bikeindex.org/uploads/Ma/1567/apache-bike.cz
-Ape Ryder,,https://aperyder.com,true,true,,,
+Ape Ryder,,https://aperyder.com,true,true,,,https://files.bikeindex.org/uploads/Ma/1830/aperyder.com
 Apollo,,http://www.apollobikes.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1099/www.apollobikes.com
 Aqua Sphere,,,false,false,,,
 Aquamira,,,false,false,,,
@@ -79,7 +79,7 @@ Ares,,http://www.aresbikes.com/,true,false,,,https://files.bikeindex.org/uploads
 Argo Cargo Bike,,https://argobikes.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1546/argobikes.com
 Argon 18,,http://www.argon18bike.com/velo.html,true,false,,,https://files.bikeindex.org/uploads/Ma/32/www.argon18bike.com
 Ari,Fezzari,https://aribikes.com/,true,false,2006,,https://files.bikeindex.org/uploads/Ma/1626/www.fezzari.com
-Ariel Rider,,https://arielrider.com,true,true,,,
+Ariel Rider,,https://arielrider.com,true,true,,,https://files.bikeindex.org/uploads/Ma/1831/arielrider.com
 Asama,,http://www.asamabicycles.com/,true,false,,,
 Assos,,https://us.assos.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/399/us.assos.com
 Atala,,https://www.atala.it/en/,true,false,,,https://files.bikeindex.org/uploads/Ma/17/www.atala.it
@@ -197,7 +197,7 @@ Borile,,,true,false,,,
 Bosch,,https://www.bosch-ebike.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/1678/www.bosch-ebike.com
 Bottecchia,,,true,false,,,
 Boulder Bicycles,,,true,false,,,
-Bowhead,,https://www.bowheadcorp.com/,true,true,,,
+Bowhead,,https://www.bowheadcorp.com/,true,true,,,https://files.bikeindex.org/uploads/Ma/1820/www.bowheadcorp.com
 BOX,,https://boxcomponents.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/431/boxcomponents.com
 Brand-X,,http://www.brandxbikes.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/1535/www.brandxbikes.com
 Brannock Device Co.,,,false,false,,,
@@ -232,6 +232,7 @@ Burley Design,,http://www.burley.com/,true,false,,,https://files.bikeindex.org/u
 Busch + Müller,Busch and Muller,https://www.bumm.de/en/,false,false,,,https://files.bikeindex.org/uploads/Ma/1788/www.bumm.de
 Bushnell,,http://www.bushnelltandems.com/indus.html,true,false,,,
 Buzzy's,,,false,false,,,
+ByK,,https://www.bykbikes.com/,true,false,,,
 Caffelatex,,,false,false,,,
 Calcott Brothers,,,true,false,,,
 Calfee Design,,http://www.calfeedesign.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/59/www.calfeedesign.com
@@ -337,7 +338,7 @@ Curtlo,,http://www.curtlo.com/,true,false,,,https://files.bikeindex.org/uploads/
 Custom,,,false,false,,,
 CVLN,Civilian,https://www.ridecvln.bike/,true,false,,,https://files.bikeindex.org/uploads/Ma/1093/www.ridecvln.bike
 CX Tape,,,false,false,,,
-CYC,CYC Motor,https://www.cycmotor.com/,false,true,,,
+CYC,CYC Motor,https://www.cycmotor.com/,false,true,,,https://files.bikeindex.org/uploads/Ma/1825/www.cycmotor.com
 Cyclamatic,,,true,false,,,
 Cycle Dog,,,false,false,,,
 Cycle Force Group,,http://www.cyclefg.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/89/www.cyclefg.com
@@ -437,6 +438,7 @@ Easy Racers,,https://easyracers.com/,true,false,,,https://files.bikeindex.org/up
 EBC,,https://electricbikecompany.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/506/electricbikecompany.com
 Ebgo,,https://www.ebgo.ca/,true,true,,,https://files.bikeindex.org/uploads/Ma/1757/www.ebgo.ca
 Ebisu,,http://www.jitensha.com/eng/aboutframes_e.html,true,false,,,https://files.bikeindex.org/uploads/Ma/973/www.jitensha.com
+Ecotric,,https://www.ecotric.com/,true,true,,,
 Eddy Merckx,,http://www.eddymerckx.be/,true,false,,,https://files.bikeindex.org/uploads/Ma/225/www.eddymerckx.be
 Edinburgh Bicycle Co-operative,,http://www.edinburghbicycle.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/1028/www.edinburghbicycle.com
 eFlow,,http://www.eflow-europe.de/,true,false,,,https://files.bikeindex.org/uploads/Ma/1280/www.eflow-europe.de
@@ -541,7 +543,7 @@ Freddie Grubb,,https://www.freddiegrubb.com/,true,false,,,https://files.bikeinde
 Free Agent,,http://www.freeagentbmx.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1102/www.freeagentbmx.com
 Free Spirit,,,true,false,,,
 Freedom,,https://www.freedomcycleco.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/541/www.freedomcycleco.com
-Freedom Concepts,,https://www.freedomconcepts.com,true,false,,,
+Freedom Concepts,,https://www.freedomconcepts.com,true,false,,,https://files.bikeindex.org/uploads/Ma/1822/www.freedomconcepts.com
 Freeload,,https://www.freeload.co.nz/,false,false,,,https://files.bikeindex.org/uploads/Ma/542/www.freeload.co.nz
 Frog bikes,,https://www.frogbikes.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1618/www.frogbikes.com
 FSA,Full Speed Ahead,https://www.fullspeedahead.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/543/www.fullspeedahead.com
@@ -557,6 +559,7 @@ Gardin,,,true,false,,,
 Garmin,,https://www.garmin.com/en-US/,false,false,,,https://files.bikeindex.org/uploads/Ma/550/www.garmin.com
 Garneau,,http://www.louisgarneau.com,true,false,,,https://files.bikeindex.org/uploads/Ma/637/louisgarneaucom.png
 Gary Fisher,,http://www.trekbikes.com/us/en/collections/gary_fisher/,true,false,,,https://files.bikeindex.org/uploads/Ma/149/www.trekbikes.com
+GASGAS,,https://www.gasgas.com/bicycles,true,true,,,
 Gates Carbon Drive,,https://blog.gatescarbondrive.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/551/blog.gatescarbondrive.com
 Gateway,,,false,false,,,
 Gavin,,,true,false,,,
@@ -621,7 +624,7 @@ Hampsten Cycles,,http://www.hampsten.com/,true,false,,,https://files.bikeindex.o
 Handsome Cycles,,http://www.handsomecycles.com,true,false,,,https://files.bikeindex.org/uploads/Ma/934/wwwhandsomecyclescom.png
 Handspun,,,false,false,,,
 Hanford,,https://www.facebook.com/pages/Hanford-Cycles/230458813647205,true,false,,,https://files.bikeindex.org/uploads/Ma/1238/www.facebook.com
-HappyRun,,https://happyrunsports.com,true,true,,,
+HappyRun,,https://happyrunsports.com,true,true,,,https://files.bikeindex.org/uploads/Ma/1832/happyrunsports.com
 Hardrocx,,https://hardrocx.no/en,true,false,,,https://files.bikeindex.org/uploads/Ma/832/hardrocx.no
 Haro,,http://www.harobikes.com,true,false,,,https://files.bikeindex.org/uploads/Ma/105/harobikescom.png
 Harry Quinn,,,true,false,,,
@@ -648,6 +651,7 @@ Hiboy,,https://www.hiboy.com/,true,true,,,https://files.bikeindex.org/uploads/Ma
 High Gear,,,false,false,,,
 Highland,,,false,false,,,
 Hija de la Coneja,,,true,false,,,
+Hiland,,https://hilandbikes.com/,true,false,,,
 Hilltopper,,https://hilltopperbikes.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1687/hilltopperbikes.com
 Himiway,,https://himiwaybike.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1620/himiwaybike.com
 Hinton Cycles,,http://www.hintoncycles.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1377/www.hintoncycles.com
@@ -721,6 +725,7 @@ Jagwire,,https://jagwire.com/,false,false,,,https://files.bikeindex.org/uploads/
 Jamis,,http://www.jamisbikes.com/usa/index.html,true,false,,,https://files.bikeindex.org/uploads/Ma/201/www.jamisbikes.com
 Jan Janssen,,http://www.janjanssen.nl/index.php,true,false,,,https://files.bikeindex.org/uploads/Ma/1123/www.janjanssen.nl
 Jandd,,https://www.jandd.com/bikes.asp,false,false,,,https://files.bikeindex.org/uploads/Ma/604/www.jandd.com
+Jasion,,https://www.jasionbike.com/,true,true,,,
 Javelin,,http://www.javbike.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1194/www.javbike.com
 Jetson,,https://ridejetson.com/,true,true,,,https://files.bikeindex.org/uploads/Ma/1677/ridejetson.com
 Jettrike,,https://www.jetrike.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1704/www.jetrike.com
@@ -888,6 +893,7 @@ Mizutani,,,true,false,,,
 MKS,,https://www.mkspedal.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/655/www.mkspedal.com
 MMR,,http://www.mmrbikes.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1264/www.mmrbikes.com
 Modolo,,http://www.modolo.eu/,false,false,,,https://files.bikeindex.org/uploads/Ma/1398/www.modolo.eu
+Mokwheel,,https://www.mokwheel.com/,true,true,,,
 Moma,momabikes,https://momabikes.eu/,true,false,,,https://files.bikeindex.org/uploads/Ma/1773/momabikes.eu
 Momentum,,http://www.pedalmomentum.com/,true,false,,,
 Monark,,http://www.monarkexercise.se/,true,false,,,https://files.bikeindex.org/uploads/Ma/87/www.monarkexercise.se
@@ -999,6 +1005,7 @@ Oval Concepts,,,false,false,,,
 Owl 360,,,false,false,,,
 Oyama,,http://www.oyama.tw/,true,false,,,https://files.bikeindex.org/uploads/Ma/1033/www.oyama.tw
 Oyma Power,,http://www.oyama.tw/,true,false,,,https://files.bikeindex.org/uploads/Ma/1622/www.oyama.tw
+Ozark Trail,,,true,false,,,
 Ozone,,,true,false,,,
 P Tec,,,true,false,,,
 Pace Sportswear,,https://pacesportswear.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/695/pacesportswear.com
@@ -1050,6 +1057,7 @@ Polar,,https://www.polar.com/en/products/bike-computers-and-cycling-watches,fals
 Polygon,,http://www.polygonbikes.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1104/www.polygonbikes.com
 Pope Manufacturing Company,,,true,false,,,
 Portland Design Works,,https://ridepdw.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/1530/ridepdw.com
+Poseidon,,https://www.poseidonbike.com/,true,false,,,
 Power Grips,,https://www.powergrips.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/718/www.powergrips.com
 PowerTap,,,false,false,,,
 Praxis,,https://praxiscycles.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1738/praxiscycles.com
@@ -1101,7 +1109,7 @@ Ratking,,http://www.ratkingframes.com/about/,true,false,,,https://files.bikeinde
 RavX,,http://ravx.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/1409/ravx.com
 Rawland Cycles,,https://www.rawlandcycles.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1078/www.rawlandcycles.com
 Razor,,http://www.razor.com/,true,true,,,https://files.bikeindex.org/uploads/Ma/280/www.razor.com
-Reactive Adaptations,,https://reactiveadaptations.com,true,false,,,
+Reactive Adaptations,,https://reactiveadaptations.com,true,false,,,https://files.bikeindex.org/uploads/Ma/1823/reactiveadaptations.com
 Redline,,https://www.redlinebicycles.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/955/wwwredlinebicyclescom.png
 Redlof,,,true,false,,,
 Redshift,,https://redshiftsports.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1673/redshiftsports.com
@@ -1127,6 +1135,7 @@ RIH Sport Amsterdam,,https://rihsport.com/,true,false,,,https://files.bikeindex.
 Ritchey,,http://ritcheylogic.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/750/ritcheylogic.com
 Ritte,,http://rittecycles.com/,true,false,,,
 Rivendell Bicycle Works,,http://www.rivbike.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/285/www.rivbike.com
+Rize,,https://rizebikes.com/,true,true,,,
 Roadmaster,,http://www.roadmasterbikes.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/30/www.roadmasterbikes.com
 Roberts Cycles,,http://www.robertscycles.com/,true,false,,,
 Robin Hood,,,true,false,,,
@@ -1143,6 +1152,7 @@ Rokform,,https://www.rokform.com/,false,false,,,https://files.bikeindex.org/uplo
 Rola,,https://www.rolaproducts.com/products/bike-carriers/PKgfIea%7C3yatE767BAfbiIhYQCNglap7,false,false,,,https://files.bikeindex.org/uploads/Ma/756/www.rolaproducts.com
 Roll Bicycle Company,,https://www.rollbicycles.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1566/www.rollbicycles.com
 Roost Bike,,http://Roostbike.com,true,false,,,https://files.bikeindex.org/uploads/Ma/1798/Roostbike.com
+ROSE,Rose Bikes,https://www.rosebikes.com,true,false,,,
 Rosko,,https://madeinnyc.org/company/rosko-cycles-inc/,true,false,,,https://files.bikeindex.org/uploads/Ma/1478/roskocc.png
 Ross,,https://rossbikes.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/288/rossbikes.com
 Rossignol,,https://www.rossignol.com/us/bikes.html,true,false,,,https://files.bikeindex.org/uploads/Ma/757/www.rossignol.com
@@ -1264,7 +1274,7 @@ Standard Byke,,http://www.standardbyke.com/,true,false,,,https://files.bikeindex
 Standert,,https://standert.de/,true,false,,,https://files.bikeindex.org/uploads/Ma/1639/standert.de
 Stanley,,,true,false,,,
 Stanridge,,https://www.facebook.com/stanridgecycles/,true,false,,,https://files.bikeindex.org/uploads/Ma/1154/www.facebook.com
-Stark Future,,https://starkfuture.com/,true,true,,,
+Stark Future,,https://starkfuture.com/,true,true,,,https://files.bikeindex.org/uploads/Ma/1818/starkfuture.com
 START,,https://startbike.bcycle.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/811/startbike.bcycle.com
 State Bicycle Co.,,http://www.statebicycle.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/961/www.statebicycle.com
 Steadyrack,,https://www.steadyrack.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/812/www.steadyrack.com
@@ -1309,6 +1319,7 @@ Supernova Bikes,,https://supernovabikes.com/,true,false,,,https://files.bikeinde
 Supernova Lights,,https://supernova-lights.com/en/,false,false,,,https://files.bikeindex.org/uploads/Ma/828/supernova-lights.com
 Superpedestrian,,https://www.superpedestrian.com/choose,false,false,,,https://files.bikeindex.org/uploads/Ma/1515/www.superpedestrian.com
 Sur-Ron,,https://www.surron.com/home,true,true,,,https://files.bikeindex.org/uploads/Ma/1804/www.surron.com
+Surface 604,,https://www.surface604bikes.com,true,true,,,
 Surface604,,https://surface604bikes.com/,true,false,2018,,https://files.bikeindex.org/uploads/Ma/1625/logo.JPG
 Surly,,http://surlybikes.com,true,false,,,https://files.bikeindex.org/uploads/Ma/112/surlybikescom.png
 Surrey,,http://www.internationalsurreyco.com,true,false,,,https://files.bikeindex.org/uploads/Ma/1191/www.internationalsurreyco.com
@@ -1389,6 +1400,7 @@ Trik Topz,,https://triktopz.com/,false,false,,,https://files.bikeindex.org/uploa
 TrikExplor,,https://www.trikexplor.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1703/www.trikexplor.com
 Trinx,,http://www.trinx.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1287/www.trinx.com
 Triumph Cycle,,,true,false,,,
+Troxus,,https://www.troxusmobility.com/,true,true,,,
 TRP,,https://trpcycling.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/864/trpcycling.com
 TruVativ,,https://www.sram.com/en/truvativ,false,false,,,https://files.bikeindex.org/uploads/Ma/865/www.sram.com
 Tubasti,,,false,false,,,
@@ -1411,12 +1423,14 @@ Upstand,,https://upstandingbicycle.com/,false,false,,,https://files.bikeindex.or
 Urago,,,true,false,,,
 Urban Arrow,,https://www.urbanarrow.com/en,true,false,,,https://files.bikeindex.org/uploads/Ma/1613/www.urbanarrow.com
 Urban Bike,,https://urbanbike.it/,true,false,,,https://files.bikeindex.org/uploads/Ma/1638/urbanbike.it
+Urtopia,,https://newurtopia.com/,true,true,,,
 VAAST,,https://www.vaastbikes.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1668/www.vaastbikes.com
 Valdora,,http://www.valdoracycles.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/332/www.valdoracycles.com
 Vamoose cycles,,https://vamoosecycle.com/,true,true,,,https://files.bikeindex.org/uploads/Ma/1767/vamoosecycle.com
 Van Dessel,,https://www.vandesselcycles.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1272/www.vandesselcycles.com
 Van Herwerden,,http://www.vanherwerden.nl/,true,false,,,https://files.bikeindex.org/uploads/Ma/1047/www.vanherwerden.nl
 Van Raam,,https://www.vanraam.com/en-gb,true,false,,,https://files.bikeindex.org/uploads/Ma/1683/www.vanraam.com
+Van Rysel,,https://www.vanryselus.com/,true,false,2019,,https://files.bikeindex.org/uploads/Ma/1833/www.vanryselus.com
 VanMoof,,http://vanmoof.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1231/vanmoof.com
 Vassago,,http://www.vassagocycles.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1055/www.vassagocycles.com
 Vee Rubber,,http://www.veerubberus.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/880/www.veerubberus.com
@@ -1454,6 +1468,7 @@ Vittoria Tires,,https://www.vittoria.com/us/en/,false,false,,,https://files.bike
 Vitus,,https://vitusbikes.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/339/vitusbikes.com
 Viva,,https://www.viva-bikes.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1188/www.viva-bikes.com
 Vivente,,http://www.viventebikes.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1192/www.viventebikes.com
+VMAX,,https://vmax-escooter.ch/,true,true,,,
 Volae,,,true,false,,,
 Volagi,,,true,false,,,
 Volt Bike,VoltBike,https://www.voltbike.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1736/www.voltbike.com
@@ -1478,7 +1493,7 @@ Weehoo,,http://rideweehoo.com/,true,false,,,https://files.bikeindex.org/uploads/
 WeeRide,,http://www.weeride.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1039/www.weeride.com
 Weinmann,,https://www.weinmanntek.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/1516/www.weinmanntek.com
 Wellgo,,https://en.wellgopedal.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/896/en.wellgopedal.com
-WeThePeople,,https://wethepeoplebmx.de/,true,false,,,https://files.bikeindex.org/uploads/Ma/342/wethepeoplebmx.de
+WeThePeople,We The People,https://wethepeoplebmx.de/,true,false,,,https://files.bikeindex.org/uploads/Ma/342/wethepeoplebmx.de
 Wheels Manufacturing,,https://wheelsmfg.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/897/wheelsmfg.com
 Wheelsmith,,,false,false,,,
 Whirlwind,,http://whirlwind-e.co.uk,true,false,,,
@@ -1487,6 +1502,7 @@ Whispbar,,http://www.whispbar.com/,false,false,,,
 White Bros,,,false,false,,,
 White Industries,,http://www.whiteind.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/1660/www.whiteind.com
 White Lightning,,http://www.whitelightningco.com/products/lubricants/clean-ride,false,false,,,https://files.bikeindex.org/uploads/Ma/903/www.whitelightningco.com
+Wilde,Wilde Bicycle Co.,https://www.wildebikes.com/,true,false,,,
 Wilier,Wilier Triestina,https://www.wilier.com,true,false,,,https://files.bikeindex.org/uploads/Ma/1556/www.wilier.com
 Willworx,,http://willworx.com/,false,false,,,https://files.bikeindex.org/uploads/Ma/906/willworx.com
 Windsor,,http://www.windsorbicycles.com/,true,false,,,
@@ -1520,7 +1536,7 @@ Yeti,,http://www.yeticycles.com,true,false,,,https://files.bikeindex.org/uploads
 YST,,http://www.yst-corp.com.tw/,false,false,,,https://files.bikeindex.org/uploads/Ma/920/www.yst-corp.com.tw
 YT,,https://us.yt-industries.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1582/us.yt-industries.com
 Yuba,,http://yubabikes.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/1003/yubabikes.com
-Zero Motorcycles,,https://www.zeromotorcycles.com,true,true,,,
+Zero Motorcycles,,https://www.zeromotorcycles.com,true,true,,,https://files.bikeindex.org/uploads/Ma/1819/www.zeromotorcycles.com
 Zigo,,http://www.myzigo.com/,true,false,,,https://files.bikeindex.org/uploads/Ma/351/www.myzigo.com
 Zinn Cycles,,http://zinncycles.com,true,false,,,https://files.bikeindex.org/uploads/Ma/1215/zinncyclescom.png
 Zipp,,https://www.sram.com/en/zipp,false,false,,,https://files.bikeindex.org/uploads/Ma/923/www.sram.com
