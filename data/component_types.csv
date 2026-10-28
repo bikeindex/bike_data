@@ -20,17 +20,21 @@ Computer,,false,Additional Parts
 Crankset,,false,Drivetrain
 Derailleur,,false,Drivetrain
 Detangler,,false,Brakes
+Device Mount,Accessory Mount,false,Additional Parts
 Drive Belt,"",false,Drivetrain
 E-vehicle Battery,Electric Bike Battery,false,Drivetrain
 E-vehicle Charger,Electric Bike Charger,false,Drivetrain
 E-vehicle Display/Remote,Electric Bike Computer,false,Drivetrain
 E-vehicle Motor,Electric Bike Motor,false,Drivetrain
 E-vehicle Wiring Harness,Electric Bike Wiring Harness,false,Drivetrain
+Electronic Shifting Component,"",false,Drivetrain
 Fairing,,false,Frame and Fork
 Fender,,true,Additional Parts
 Fork,,false,Frame and Fork
 Frame Bag,,false,Cargo
+Frame protection,Frame pad,false,Frame and Fork
 Generator/Dynamo,,true,Wheels
+GPS/Connectivity Module,Tracker,false,Additional Parts
 Grips/Tape,,false,Additional Parts
 Handlebar,,false,Additional Parts
 Handlebar Bag,,false,Cargo
@@ -40,16 +44,22 @@ Hub Guard,,false,Additional Parts
 Internal Frame Storage,"Downtube Storage (Specialized SWAT, Canyon LoadUp)",false,Frame and Fork
 Kickstand,,false,Additional Parts
 Lights,,true,Additional Parts
+Lock,"",false,Additional Parts
+Mirror,"",false,Additional Parts
 Pannier,Rack Bag,false,Cargo
 Pedals,,false,Drivetrain
 Pegs,,true,Additional Parts
+Power Meter,"",false,Drivetrain
+Pump,Frame Pump,false,Additional Parts
 Rack,,true,Cargo
 Rear Suspension,,false,Frame and Fork
+Remote,"Suspension Remote, Dropper Remote",false,Additional Parts
 Rim,,true,Wheels
 Saddle,,false,Additional Parts
 Seat Bag,Saddle Bag,false,Cargo
 Seatpost,,false,Additional Parts
 Seatpost Clamp,,false,Additional Parts
+Sensor,Speed/Cadence/Torque Sensor,false,Drivetrain
 Shift and Brake Lever,,true,Drivetrain
 Shift Cable,,false,Drivetrain
 Shifter,,true,Drivetrain
@@ -58,6 +68,7 @@ Stem,Gooseneck,false,Additional Parts
 Throttle,"",false,Drivetrain
 Tire,,true,Wheels
 Toe Clips,,false,Additional Parts
+Tools,"",false,Additional Parts
 Top of Rack Bag,Rack Bag,false,Cargo
 Top Tube Bag,Bento Box,false,Cargo
 Training Wheels,,false,Wheels
