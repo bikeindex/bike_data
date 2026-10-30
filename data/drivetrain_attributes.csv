@@ -41,3 +41,5 @@ rear,Continuously Variable,0,true
 both,Belt Drive,1,false
 rear,Coaster Brake,1,true
 both,Shaft Drive,1,true
+rear,Freecoaster,1,true
+both,Left Side Drive,1,false

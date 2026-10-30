@@ -22,6 +22,7 @@ vehicle_type,Skateboard,Skateboard (Not Electric),never,never
 vehicle_type,e-Motorcycle,"e-Motorcycle (e-Dirt Bike, e-Bike with No Pedals)",always,never
 vehicle_type,Elliptical Bike,Elliptical Bike,can_be,never
 vehicle_type,Balance Bike,Balance Bike (No Pedals),never,never
+vehicle_type,e-ATV,e-ATV,always,never
 propulsion_type,Pedal,Pedal,never,always
 propulsion_type,Pedal Assist,Pedal Assist,always,always
 propulsion_type,Throttle,Throttle,always,can_be
@@ -37,3 +38,4 @@ frame_material,Wood or Organic Material,Wood or Organic Material,,
 motor_placement,Hub Drive,Hub Drive,always,can_be
 motor_placement,Mid Drive,Mid Drive,always,always
 motor_placement,Friction Drive,Friction Drive,always,can_be
+motor_placement,"Mid Drive, dedicated chain","Mid Drive, dedicated chain",always,can_be
