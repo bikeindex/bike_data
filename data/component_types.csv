@@ -1,7 +1,6 @@
 name,secondary_name,has_multiple_locations,group
 Aero Bars/Extensions/Bar Ends,Aero Bars,false,Additional Parts
 Axle Nuts,,true,Wheels
-Bashguard/Chain Guide,,false,Drivetrain
 Basket,,true,Cargo
 Bell/Noisemaker,,false,Additional Parts
 Bottom Bracket,,false,Drivetrain
@@ -11,11 +10,12 @@ Brake Lever,,true,Brakes
 Brake Pad,,true,Brakes
 Brake Rotor,,true,Brakes
 Cargo Bike Side Rails,Cargo Bike Monkey Bars,false,Cargo
+Cassette,Cog/Freewheel,false,Drivetrain
 Chain,,false,Drivetrain
+Chain Guide,Bashguard,false,Drivetrain
 Chain Tensioners,Chain Tugs,false,Drivetrain
 Chainrings,,false,Drivetrain
 Child Seat,,false,Cargo
-Cog/Cassette/Freewheel,,false,Drivetrain
 Computer,,false,Additional Parts
 Crankset,,false,Drivetrain
 Derailleur,,false,Drivetrain
@@ -24,9 +24,9 @@ Device Mount,Accessory Mount,false,Additional Parts
 Drive Belt,"",false,Drivetrain
 E-vehicle Battery,Electric Bike Battery,false,Drivetrain
 E-vehicle Charger,Electric Bike Charger,false,Drivetrain
-E-vehicle Display/Remote,Electric Bike Computer,false,Drivetrain
 E-vehicle Motor,Electric Bike Motor,false,Drivetrain
 E-vehicle Wiring Harness,Electric Bike Wiring Harness,false,Drivetrain
+E-vehicleRemote,"E-vehicle Display, Electric Bike Computer",false,Drivetrain
 Electronic Shifting Component,"",false,Drivetrain
 Fairing,,false,Frame and Fork
 Fender,,true,Additional Parts
