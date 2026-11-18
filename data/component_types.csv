@@ -25,8 +25,8 @@ Drive Belt,"",false,Drivetrain
 E-vehicle Battery,Electric Bike Battery,false,Drivetrain
 E-vehicle Charger,Electric Bike Charger,false,Drivetrain
 E-vehicle Motor,Electric Bike Motor,false,Drivetrain
+E-vehicle Remote,"E-vehicle Display, Electric Bike Computer",false,Drivetrain
 E-vehicle Wiring Harness,Electric Bike Wiring Harness,false,Drivetrain
-E-vehicleRemote,"E-vehicle Display, Electric Bike Computer",false,Drivetrain
 Electronic Shifting Component,"",false,Drivetrain
 Fairing,,false,Frame and Fork
 Fender,,true,Additional Parts
