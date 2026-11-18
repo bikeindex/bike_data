@@ -1,13 +1,24 @@
 name,iso_bsd,priority,description
+7.7in,54,rare,"7.7in (7.7 x 2.8) PU wheel, Vanpowers VanSwift mobility scooter (Rare)"
+3in,76,rare,"3in (76 mm) solid wheel, Hover-1 Switch e-scooter/skateboard (Rare)"
+3.5in,89,rare,"3.5in (90 mm) solid wheel, 6KU Sail 11 M kids' e-scooter rear (Rare)"
 6in,90,uncommon,"6in (6 x 1 1/4, 150 x 30) small kick/e-scooters (Uncommon)"
 8in,93,uncommon,"8in (200 x 50, ETRTO 47-93) smaller e-scooters and hoverboards (Uncommon)"
+3.9in,100,uncommon,"3.9in (100 mm) solid wheel, stunt kick scooters such as Ktaxon's Pro Scooter (Uncommon)"
+7in,102,rare,"7in (178 x 38) solid wheel, NIU KQi Youth kids' e-scooter rear (Rare)"
 6.5in,110,uncommon,"6.5in solid tire, Hiboy S2 Lite and hoverboard-style scooters (Uncommon)"
+4.5in,114,rare,"4.5in (114 mm) solid wheel, Hover-1 My First E-Scooter front (Rare)"
+7.5in,115,rare,"7.5in (191 x 38) solid wheel, NIU KQi Youth kids' e-scooter front (Rare)"
+4.7in,120,rare,"4.7in (120 mm) solid wheel, 6KU Sail 11 M kids' e-scooter front (Rare)"
+5in,127,rare,"5in (127 mm) wheel, Gyroor Ringo electric balance board (Rare)"
 8.5in,134,common,"8.5in (8 1/2 x 2, ISO 50-134) Xiaomi M365/Pro and most 8.5in e-scooters (Common)"
 8 x 1 1/4,137,rare,8 x 1 1/4 (Rare)
 9in,145,uncommon,"9in (9 x 2) Hiboy S2R Plus and other 9in e-scooters (Uncommon)"
 10in,152,common,"10in (10 x 2, 54-152) Ninebot ES/Max and many 10in e-scooters (Common)"
+9.5in,155,uncommon,"9.5in (9.5 x 2.5-6.1) NIU KQi3, KQi 100 and KQi Air e-scooters (Uncommon)"
 11in,165,uncommon,"11in (90/65-6.5; Ninebot Max 10in uses 60/70-6.5) Dualtron, Ninebot Max e-scooters (Uncommon)"
 10in (6.9in rim),175,uncommon,"10in (60/65-6.9) Segway Ninebot Max G2, E2 Pro, E3, F3 e-scooters (Uncommon)"
+10.5in,178,uncommon,10.5in (10.5 x 2.5-7) NIU KQi 300 e-scooters (Uncommon)
 11in (7.5in rim),191,uncommon,"11in (7.5in rim) Segway GT3, Max G3 e-scooters (Uncommon)"
 12in,203,standard,12in (Standard size)
 14in,254,standard,14in (Standard size)
@@ -18,6 +29,7 @@ name,iso_bsd,priority,description
 400 A,340,rare,400 A (Rare)
 16 x 1 3/8,349,rare,"16 x 1 3/8, mysterious (Rare)"
 18in,355,standard,18in (Standard size)
+14in moto,356,uncommon,"14in motorcycle rim (60/100-14, 2.50-14) Talaria, Sur-Ron and Xion CyberX e-motos (Uncommon)"
 17 x 1 1/4,369,rare,17 x 1 1/4 (Rare)
 19in trials,387,rare,"19in trials unicycle, Kris Holm (Rare)"
 450 A,390,rare,450 A (Rare)
@@ -31,6 +43,7 @@ name,iso_bsd,priority,description
 550 A,490,rare,550 A (Rare)
 24in,507,standard,24in (Standard size)
 24 x 1,520,uncommon,24 x 1 performance wheels for smaller riders (Uncommon)
+21in moto,533,rare,"21in motorcycle rim (70/100-21, 80/100-21) Stark Varg front, Xion pedicabs' rear (Rare)"
 "24 x 1 1/8, 24 x 1 3/8 (E.5), 600 A",540,rare,"24 x 1 1/8, 24 x 1 3/8 (E.5), 600 A (Rare)"
 "24 x 1 1/4, 24 x 1 3/8 (S-5)",547,rare,"24 x 1 1/4, 24 x 1 3/8, Schwinn Juvenile (Rare)"
 26in,559,standard,26in (Standard size)
