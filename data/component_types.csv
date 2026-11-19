@@ -1,79 +1,79 @@
 name,secondary_name,has_multiple_locations,group
-Aero Bars/Extensions/Bar Ends,Aero Bars,false,Additional Parts
+Aero Bars/Extensions/Bar Ends,Aero Bars,,Additional Parts
 Axle Nuts,,true,Wheels
 Basket,,true,Cargo
-Bell/Noisemaker,,false,Additional Parts
-Bottom Bracket,,false,Drivetrain
+Bell/Noisemaker,,,Additional Parts
+Bottom Bracket,,,Drivetrain
 Brake,,true,Brakes
-Brake Cable,,false,Brakes
+Brake Cable,,,Brakes
 Brake Lever,,true,Brakes
 Brake Pad,,true,Brakes
 Brake Rotor,,true,Brakes
-Cargo Bike Side Rails,Cargo Bike Monkey Bars,false,Cargo
-Cassette,Cog/Freewheel,false,Drivetrain
-Chain,,false,Drivetrain
-Chain Guide,Bashguard,false,Drivetrain
-Chain Tensioners,Chain Tugs,false,Drivetrain
-Chainrings,,false,Drivetrain
-Child Seat,,false,Cargo
-Computer,,false,Additional Parts
-Crankset,,false,Drivetrain
-Derailleur,,false,Drivetrain
-Detangler,,false,Brakes
-Device Mount,Accessory Mount,false,Additional Parts
-Drive Belt,"",false,Drivetrain
-E-vehicle Battery,Electric Bike Battery,false,Drivetrain
-E-vehicle Charger,Electric Bike Charger,false,Drivetrain
-E-vehicle Motor,Electric Bike Motor,false,Drivetrain
-E-vehicle Remote,"E-vehicle Display, Electric Bike Computer",false,Drivetrain
-E-vehicle Wiring Harness,Electric Bike Wiring Harness,false,Drivetrain
-Electronic Shifting Component,"",false,Drivetrain
-Fairing,,false,Frame and Fork
+Cargo Bike Side Rails,Cargo Bike Monkey Bars,,Cargo
+Cassette,Cog/Freewheel,,Drivetrain
+Chain,,,Drivetrain
+Chain Guide,Bashguard,,Drivetrain
+Chain Tensioners,Chain Tugs,,Drivetrain
+Chainrings,,,Drivetrain
+Child Seat,,,Cargo
+Computer,,,Additional Parts
+Crankset,,,Drivetrain
+Derailleur,,,Drivetrain
+Detangler,,,Brakes
+Device Mount,Accessory Mount,,Additional Parts
+Drive Belt,"",,Drivetrain
+E-vehicle Battery,Electric Bike Battery,,Drivetrain
+E-vehicle Charger,Electric Bike Charger,,Drivetrain
+E-vehicle Motor,Electric Bike Motor,,Drivetrain
+E-vehicle Remote,"E-vehicle Display, Electric Bike Computer",,Drivetrain
+E-vehicle Wiring Harness,Electric Bike Wiring Harness,,Drivetrain
+Electronic Shifting Component,"",,Drivetrain
+Fairing,,,Frame and Fork
 Fender,,true,Additional Parts
-Fork,,false,Frame and Fork
-Frame Bag,,false,Cargo
-Frame protection,Frame pad,false,Frame and Fork
+Fork,,,Frame and Fork
+Frame Bag,,,Cargo
+Frame protection,Frame pad,,Frame and Fork
 Generator/Dynamo,,true,Wheels
-GPS/Connectivity Module,Tracker,false,Additional Parts
-Grips/Tape,,false,Additional Parts
-Handlebar,,false,Additional Parts
-Handlebar Bag,,false,Cargo
-Headset,,false,Frame and Fork
+GPS/Connectivity Module,Tracker,,Additional Parts
+Grips/Tape,,,Additional Parts
+Handlebar,,,Additional Parts
+Handlebar Bag,,,Cargo
+Headset,,,Frame and Fork
 Hub,,true,Wheels
-Hub Guard,,false,Additional Parts
-Included not installed,"",false,Additional Parts
-Internal Frame Storage,"Downtube Storage (Specialized SWAT, Canyon LoadUp)",false,Frame and Fork
-Kickstand,,false,Additional Parts
+Hub Guard,,,Additional Parts
+Included not installed,"",,Additional Parts
+Internal Frame Storage,"Downtube Storage (Specialized SWAT, Canyon LoadUp)",,Frame and Fork
+Kickstand,,,Additional Parts
 Lights,,true,Additional Parts
-Lock,"",false,Additional Parts
-Mirror,"",false,Additional Parts
-Pannier,Rack Bag,false,Cargo
-Pedals,,false,Drivetrain
+Lock,"",,Additional Parts
+Mirror,"",,Additional Parts
+Pannier,Rack Bag,,Cargo
+Pedals,,,Drivetrain
 Pegs,,true,Additional Parts
-Power Meter,"",false,Drivetrain
-Pump,Frame Pump,false,Additional Parts
+Power Meter,"",,Drivetrain
+Pump,Frame Pump,,Additional Parts
 Rack,,true,Cargo
-Rear Suspension,,false,Frame and Fork
-Remote,"Suspension Remote, Dropper Remote",false,Additional Parts
+Rear Suspension,,,Frame and Fork
+Remote,"Suspension Remote, Dropper Remote",,Additional Parts
 Rim,,true,Wheels
-Saddle,,false,Additional Parts
-Seat Bag,Saddle Bag,false,Cargo
-Seatpost,,false,Additional Parts
-Seatpost Clamp,,false,Additional Parts
-Sensor,Speed/Cadence/Torque Sensor,false,Drivetrain
+Saddle,,,Additional Parts
+Seat Bag,Saddle Bag,,Cargo
+Seatpost,,,Additional Parts
+Seatpost Clamp,,,Additional Parts
+Sensor,Speed/Cadence/Torque Sensor,,Drivetrain
 Shift and Brake Lever,,true,Drivetrain
-Shift Cable,,false,Drivetrain
+Shift Cable,,,Drivetrain
 Shifter,,true,Drivetrain
 Spokes,,true,Wheels
-Stem,Gooseneck,false,Additional Parts
-Throttle,"",false,Drivetrain
+Stem,Gooseneck,,Additional Parts
+Throttle,"",,Drivetrain
 Tire,,true,Wheels
-Toe Clips,,false,Additional Parts
-Tools,"",false,Additional Parts
-Top of Rack Bag,Rack Bag,false,Cargo
-Top Tube Bag,Bento Box,false,Cargo
-Training Wheels,,false,Wheels
+Toe Clips,,,Additional Parts
+Tools,"",,Additional Parts
+Top of Rack Bag,Rack Bag,,Cargo
+Top Tube Bag,Bento Box,,Cargo
+Training Wheels,,,Wheels
 Tube,,true,Wheels
-unknown,,false,Additional Parts
-Water Bottle Cage,,false,Additional Parts
+unknown,,,Additional Parts
+Water Bottle Cage,,,Additional Parts
 Wheel,,true,Wheels
