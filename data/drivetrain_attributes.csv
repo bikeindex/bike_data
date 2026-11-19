@@ -1,26 +1,26 @@
 position (front/rear/both),name,count,internal
-front,1,1,false
-front,2,2,false
-front,3,3,false
+front,1,1,
+front,2,2,
+front,3,3,
 front,2 Internal,2,true
 front,3 Internal,3,true
 front,6 Speed Pinion Gearbox,6,true
 front,9 Speed Pinion Gearbox,9,true
 front,12 Speed Pinion Gearbox,12,true
 front,18 Speed Pinion Gearbox,18,true
-rear,1,1,false
-rear,2,2,false
-rear,3,3,false
-rear,4,4,false
-rear,5,5,false
-rear,6,6,false
-rear,7,7,false
-rear,8,8,false
-rear,9,9,false
-rear,10,10,false
-rear,11,11,false
-rear,12,12,false
-rear,Fixed,1,false
+rear,1,1,
+rear,2,2,
+rear,3,3,
+rear,4,4,
+rear,5,5,
+rear,6,6,
+rear,7,7,
+rear,8,8,
+rear,9,9,
+rear,10,10,
+rear,11,11,
+rear,12,12,
+rear,Fixed,1,
 rear,1 Internal,1,true
 rear,2 Internal,2,true
 rear,3 Internal,3,true
@@ -33,13 +33,13 @@ rear,9 Internal,9,true
 rear,10 Internal,10,true
 rear,11 Internal,11,true
 rear,12 Internal,12,true
-rear,13,13,false
-rear,14,14,false
+rear,13,13,
+rear,14,14,
 rear,13 Internal,13,true
 rear,14 Internal,14,true
 rear,Continuously Variable,0,true
-both,Belt Drive,1,false
+both,Belt Drive,1,
 rear,Coaster Brake,1,true
 both,Shaft Drive,1,true
 rear,Freecoaster,1,true
-both,Left Side Drive,1,false
+both,Left Side Drive,1,
