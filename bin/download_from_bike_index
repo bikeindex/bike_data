@@ -18,6 +18,7 @@ outdir="${outdir%/}/"
 wget -q https://bikeindex.org/manufacturers.csv -O "${outdir}manufacturers.csv"
 wget -q https://bikeindex.org/primary_activities.csv -O "${outdir}primary_activities.csv"
 wget -q https://bikeindex.org/components.csv -O "${outdir}component_types.csv"
+wget -q https://bikeindex.org/wheel_sizes.csv -O "${outdir}wheel_sizes.csv"
 
 # bike_index does not serve these alphabetized, but the repo (and csvs_spec)
 # requires them sorted case-insensitively by their first column. Re-sort in
