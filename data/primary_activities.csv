@@ -1,44 +1,44 @@
-flavor,families,priority,short_name
-,MTB (Mountain Biking),595,MTB
-,Road Biking,590,Road
-,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc.",575,ATB
-,Cargo,450,Cargo
-,BMX,440,BMX
-,DJ (Dirt Jumping),330,DJ
-,Track Racing,310,Track
-,Trials,305,Trials
-Commuting (Around Town / Hybrid),,600,Commuting
-Bike Polo,,401,Bike Polo
-Fixed Gear Freestyle,,360,Fixed Gear Freestyle
-Gravel,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc.",282,Gravel
-Cyclocross,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc.",281,Cyclocross
-Bikepacking,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc. & MTB (Mountain Biking)",280,Bikepacking
-Bike Touring,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc. & Road Biking",278,Bike Touring
-Randonneuring,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc. & Road Biking",271,Randonneuring
-All Road,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc. & Road Biking",268,All Road
-Monster Cross,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc.",253,Monster Cross
-Triathlon,Road Biking,238,Triathlon
-Time Trial,Road Biking & Track Racing,237,Time Trial
-Criterium,Road Biking,236,Criterium
-Climbing,Road Biking,235,Climbing
-Aero,Road Biking,234,Aero
-Endurance / Sportive,Road Biking,231,Endurance
-Trail / All-Mountain,MTB (Mountain Biking),192,Trail / All-Mountain
-Cross-Country (XC),MTB (Mountain Biking),191,Cross-Country
-Enduro,MTB (Mountain Biking),190,Enduro
-Downhill,MTB (Mountain Biking),189,Downhill
-Freeride,MTB (Mountain Biking),188,Freeride
-Child Carrying,Cargo,118,Child Carrying
-Commercial,Cargo,117,Commercial
-Race,BMX,108,Race
-Freestyle,BMX,107,Freestyle
-Flatland,BMX,106,Flatland
-Cruiser,BMX,105,Cruiser
-Pursuit,Track Racing,80,Pursuit
-Sprint,Track Racing,79,Sprint
-Keirin / NJS,Track Racing,78,Keirin / NJS
-Slopestyle,DJ (Dirt Jumping),67,Slopestyle
-4X/Dual Slalom,DJ (Dirt Jumping),66,4X/Dual Slalom
-Street Trials,Trials,55,Street Trials
-Pure Trials,Trials,54,Pure Trials
-Artistic Cycling,,5,Artistic Cycling
+flavor,families,priority,short_name,slug
+,MTB (Mountain Biking),595,MTB,mtb
+,Road Biking,590,Road,road-biking
+,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc.",575,ATB,atb
+,Cargo,450,Cargo,cargo
+,BMX,440,BMX,bmx
+,DJ (Dirt Jumping),330,DJ,dj
+,Track Racing,310,Track,track-racing
+,Trials,305,Trials,trials
+Commuting (Around Town / Hybrid),,600,Commuting,commuting
+Bike Polo,,401,Bike Polo,bike-polo
+Fixed Gear Freestyle,,360,Fixed Gear Freestyle,fixed-gear-freestyle
+Gravel,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc.",282,Gravel,gravel
+Cyclocross,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc.",281,Cyclocross,cyclocross
+Bikepacking,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc. & MTB (Mountain Biking)",280,Bikepacking,bikepacking
+Bike Touring,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc. & Road Biking",278,Bike Touring,bike-touring
+Randonneuring,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc. & Road Biking",271,Randonneuring,randonneuring
+All Road,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc. & Road Biking",268,All Road,all-road
+Monster Cross,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc.",253,Monster Cross,monster-cross
+Triathlon,Road Biking,238,Triathlon,triathlon
+Time Trial,Road Biking & Track Racing,237,Time Trial,time-trial
+Criterium,Road Biking,236,Criterium,criterium
+Climbing,Road Biking,235,Climbing,climbing
+Aero,Road Biking,234,Aero,aero
+Endurance / Sportive,Road Biking,231,Endurance,endurance-sportive
+Trail / All-Mountain,MTB (Mountain Biking),192,Trail / All-Mountain,trail-all-mountain
+Cross-Country (XC),MTB (Mountain Biking),191,Cross-Country,cross-country
+Enduro,MTB (Mountain Biking),190,Enduro,enduro
+Downhill,MTB (Mountain Biking),189,Downhill,downhill
+Freeride,MTB (Mountain Biking),188,Freeride,freeride
+Child Carrying,Cargo,118,Child Carrying,child-carrying
+Commercial,Cargo,117,Commercial,commercial
+Race,BMX,108,Race,race
+Freestyle,BMX,107,Freestyle,freestyle
+Flatland,BMX,106,Flatland,flatland
+Cruiser,BMX,105,Cruiser,cruiser
+Pursuit,Track Racing,80,Pursuit,pursuit
+Sprint,Track Racing,79,Sprint,sprint
+Keirin / NJS,Track Racing,78,Keirin / NJS,keirin-njs
+Slopestyle,DJ (Dirt Jumping),67,Slopestyle,slopestyle
+4X/Dual Slalom,DJ (Dirt Jumping),66,4X/Dual Slalom,4xdual-slalom
+Street Trials,Trials,55,Street Trials,street-trials
+Pure Trials,Trials,54,Pure Trials,pure-trials
+Artistic Cycling,,5,Artistic Cycling,artistic-cycling
