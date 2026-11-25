@@ -12,22 +12,26 @@ Bike Polo,,401,Bike Polo,bike-polo
 Fixed Gear Freestyle,,360,Fixed Gear Freestyle,fixed-gear-freestyle
 Gravel,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc.",282,Gravel,atb-gravel
 Cyclocross,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc.",281,Cyclocross,atb-cyclocross
-Bikepacking,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc. & MTB (Mountain Biking)",280,Bikepacking,atb-bikepacking
-Bike Touring,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc. & Road Biking",278,Bike Touring,atb-bike-touring
-Randonneuring,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc. & Road Biking",271,Randonneuring,atb-randonneuring
-All Road,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc. & Road Biking",268,All Road,atb-all-road
+Bikepacking,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc.",280,Bikepacking,atb-bikepacking
+Bike Touring,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc.",278,Bike Touring,atb-bike-touring
+Randonneuring,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc.",271,Randonneuring,atb-randonneuring
+All Road,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc.",268,All Road,atb-all-road
 Monster Cross,"ATB (All Terrain Biking) — Gravel, Cyclocross, etc.",253,Monster Cross,atb-monster-cross
 Triathlon,Road Biking,238,Triathlon,road-triathlon
-Time Trial,Road Biking & Track Racing,237,Time Trial,road-time-trial
+Time Trial,Road Biking,237,Time Trial,road-time-trial
 Criterium,Road Biking,236,Criterium,road-criterium
 Climbing,Road Biking,235,Climbing,road-climbing
 Aero,Road Biking,234,Aero,road-aero
+All Road,Road Biking,233,All Road,road-all-road
 Endurance / Sportive,Road Biking,231,Endurance,road-endurance-sportive
+Randonneuring,Road Biking,230,Randonneuring,road-randonneuring
+Bike Touring,Road Biking,223,Bike Touring,road-bike-touring
 Trail / All-Mountain,MTB (Mountain Biking),192,Trail / All-Mountain,mtb-trail-all-mountain
 Cross-Country (XC),MTB (Mountain Biking),191,Cross-Country,mtb-cross-country
 Enduro,MTB (Mountain Biking),190,Enduro,mtb-enduro
 Downhill,MTB (Mountain Biking),189,Downhill,mtb-downhill
 Freeride,MTB (Mountain Biking),188,Freeride,mtb-freeride
+Bikepacking,MTB (Mountain Biking),169,Bikepacking,mtb-bikepacking
 Child Carrying,Cargo,118,Child Carrying,cargo-child-carrying
 Commercial,Cargo,117,Commercial,cargo-commercial
 Race,BMX,108,Race,bmx-race
@@ -37,6 +41,7 @@ Cruiser,BMX,105,Cruiser,bmx-cruiser
 Pursuit,Track Racing,80,Pursuit,track-pursuit
 Sprint,Track Racing,79,Sprint,track-sprint
 Keirin / NJS,Track Racing,78,Keirin / NJS,track-keirin-njs
+Time Trial,Track Racing,77,Time Trial,track-time-trial
 Slopestyle,DJ (Dirt Jumping),67,Slopestyle,dj-slopestyle
 4X/Dual Slalom,DJ (Dirt Jumping),66,4X/Dual Slalom,dj-4x-dual-slalom
 Street Trials,Trials,55,Street Trials,trials-street-trials
